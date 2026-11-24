@@ -28,3 +28,6 @@ __pycache__/
 
 # 게임 자료를 풀어 낸 파일(배포 금지)
 analysis/img/*.bin
+
+# 분석용 그림(ROM 글꼴·그래픽을 그린 판독용, 배포 금지)
+analysis/img/

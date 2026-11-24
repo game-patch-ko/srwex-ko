@@ -72,7 +72,7 @@ python srwtext.py build --no-tr    # 재배치만(회귀 검사)
 ## 7. 다음 세션에서 할 일 (사용자 지시: 남은 것 처리 후 공개 전환)
 1. 정식 README.md·README.ja.md: 3차 저장소 README 형식(특징 표, 원문/한국어 비교 스크린샷 `docs/images/`, 패치 방법, 문제 제보, 동작 원리, 직접 빌드, 권리·Claude 사용 고지). 스크린샷 원본: `tools/shots/`(타이틀 `logo_ko/shot.png`·`logo/shot.png`, 편 선택 `menu4/00840.png`, 1화 제목 `title_ko/`, 대화·전투 `menu4/`·`idle/`, 능력 `unit2/10830.png`). 개발 중 문구 제거.
 2. 문제 제보 양식 `.github/ISSUE_TEMPLATE/report.yml`(3차 것 복사·수정).
-3. **공개 전 필수: 커밋 `8aeb904`에 원본 게임 그래픽을 풀어 낸 `analysis/img/g04.bin`이 들어가 있다**(다음 커밋에서 삭제·`.gitignore` 추가했지만 기록에는 남음). 공개 전에 그 커밋에서 파일을 빼는 기록 정리(`git rebase`/`filter-repo` + 강제 push)가 필요하며, 강제 push는 사용자 승인이 필요함(2026-11-24 자동 승인 분류기가 거절). **사용자 결정(2026-11-24): 기록 정리는 새 세션에서 진행** — 새 세션은 이 정리부터 시작하되, 강제 push 직전에 대상 커밋·파일을 사용자에게 한 번 보여 주고 실행할 것. 같은 정리 때 `analysis/img/*.png`(ROM 글꼴·제목 글꼴을 그린 판독용 그림)도 빼는 것을 권장 — 사용자와 결정.
+3. (2026-11-24 두 번째 세션) 기록 정리 완료: `git filter-branch`로 전체 기록에서 `analysis/img/`(g04.bin·판독용 그림)를 뺌, `.gitignore`에 `analysis/img/` 추가(파일은 로컬에만 보관). 정리 전 기록은 로컬 가지 `backup-before-clean`에 있음(원격 반영 확인 후 삭제).
 4. 커밋·push → `gh release create v0.9 dist/srwex_ko.xdelta dist/srwex_ko.ips dist/README.txt dist/OFL.txt`(베타라 pre-release 권장, 사용자와 확인) → **`gh repo edit game-patch-ko/srwex-ko --visibility public --accept-visibility-change-consequences`**(사용자가 2026-11-24 공개 전환을 지시함).
 5. 이후: 사용자·지인 플레이 피드백(인터미션·엔딩), 얼굴 전환 장면 S06D750 실제 확인.
 - git: `main`, 원격 `game-patch-ko/srwex-ko` **비공개**(2026-11-24 생성). 작성자 rity73 noreply(저장소 로컬 설정), 커밋 끝 `Generated automatically using Claude (AI model).`
