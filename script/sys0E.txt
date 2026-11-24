@@ -1,0 +1,267 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (sys0E)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S01F1FE]  N0E#00
+JP: ラングラン動乱{END}
+KO: 랑그란 동란{END}
+
+[S01F208]  N0E#01
+JP: 召喚{END}
+KO: 소환{END}
+
+[S01F20D]  N0E#02
+JP: イモータルの迎撃{END}
+KO: 이모탈 요격{END}
+
+[S01F218]  N0E#03
+JP: オーラバトラー{END}
+KO: 오라배틀러{END}
+
+[S01F220]  N0E#04
+JP: オーラ・シップ{END}
+KO: 오라・쉽{END}
+
+[S01F228]  N0E#05
+JP: 聖少女{END}
+KO: 성소녀{END}
+
+[S01F22F]  N0E#06 N0E#08
+JP: ソラティス神殿{END}
+KO: 솔라티스 신전{END}
+
+[S01F239]  N0E#07
+JP: デモン・ハック{END}
+KO: 데몬・해크{END}
+
+[S01F241]  N0E#09
+JP: コーラルキャニオン{END}
+KO: 코랄 캐니언{END}
+
+[S01F24B]  N0E#0A
+JP: コーラルキャニオン再び{END}
+KO: 다시 코랄 캐니언{END}
+
+[S01F258]  N0E#0B
+JP: 王都潜入{END}
+KO: 왕도 잠입{END}
+
+[S01F261]  N0E#0C
+JP: 大義のもとに{END}
+KO: 대의를 위해{END}
+
+[S01F26A]  N0E#0D
+JP: 囚われの王女{END}
+KO: 사로잡힌 왕녀{END}
+
+[S01F274]  N0E#0E
+JP: 王都への帰還{END}
+KO: 왕도로의 귀환{END}
+
+[S01F27F]  N0E#0F
+JP: カークスの野望{END}
+KO: 카크스의 야망{END}
+
+[S01F289]  N0E#10
+JP: 偽りの戴冠式{END}
+KO: 거짓 대관식{END}
+
+[S01F294]  N0E#11
+JP: テリウス出奔{END}
+KO: 테리우스 출분{END}
+
+[S01F29D]  N0E#12
+JP: 王都の決戦{END}
+KO: 왕도의 결전{END}
+
+[S01F2A7]  N0E#13
+JP: 陰謀の影{END}
+KO: 음모의 그림자{END}
+
+[S01F2AF]  N0E#14
+JP: 地底の死闘{END}
+KO: 지저의 사투{END}
+
+[S01F2B9]  N0E#15
+JP: 邪神復活{END}
+KO: 사신 부활{END}
+
+[S01F2C2]  N0E#16
+JP: フェイルの闇{END}
+KO: 페일의 어둠{END}
+
+[S01F2CA]  N0E#17
+JP: 訣別{END}
+KO: 결별{END}
+
+[S01F2CF]  N0E#18 N0E#35
+JP: 決戦{END}
+KO: 결전{END}
+
+[S01F2D4]  N0E#19
+JP: 野望、うずまく{END}
+KO: 소용돌이치는 야망{END}
+
+[S01F2DE]  N0E#1A
+JP: 決戦、デュラクシール{END}
+KO: 결전, 듀라크실{END}
+
+[S01F2EB]  N0E#1B N0E#1C N0E#1D N0E#1E
+JP: 地底世界{END}
+KO: 지저 세계{END}
+
+[S01F2F4]  N0E#1F
+JP: 再会{END}
+KO: 재회{END}
+
+[S01F2F9]  N0E#20
+JP: ダンク市の攻防{END}
+KO: 단크시 공방전{END}
+
+[S01F304]  N0E#21
+JP: それぞれの正義{END}
+KO: 각자의 정의{END}
+
+[S01F30E]  N0E#22
+JP: 胞子の谷{END}
+KO: 포자의 계곡{END}
+
+[S01F316]  N0E#23
+JP: サプライズド・アタック{END}
+KO: 서프라이즈드・어택{END}
+
+[S01F322]  N0E#24
+JP: 反撃{END}
+KO: 반격{END}
+
+[S01F327]  N0E#25
+JP: ヴォルクルスの影{END}
+KO: 볼크루스의 그림자{END}
+
+[S01F331]  N0E#26
+JP: テリウス王子{END}
+KO: 테리우스 왕자{END}
+
+[S01F33A]  N0E#27
+JP: 捕虜救出{END}
+KO: 포로 구출{END}
+
+[S01F343]  N0E#28
+JP: シュウ＝シラカワ{END}
+KO: 슈우 시라카와{END}
+
+[S01F34C]  N0E#29
+JP: 黒い三連星{END}
+KO: 검은 삼연성{END}
+
+[S01F356]  N0E#2A
+JP: ルオゾール、暗躍{END}
+KO: 루오졸, 암약{END}
+
+[S01F361]  N0E#2B
+JP: 父と子{END}
+KO: 아버지와 아들{END}
+
+[S01F367]  N0E#2C
+JP: カークスの目{END}
+KO: 카크스의 눈{END}
+
+[S01F36F]  N0E#2D
+JP: セブ神殿を守れ!{END}
+KO: 세브 신전을 지켜라!{END}
+
+[S01F37B]  N0E#2E
+JP: シュテドニアス追撃{END}
+KO: 슈테드니아스 추격{END}
+
+[S01F387]  N0E#2F
+JP: 敗軍の将{END}
+KO: 패군의 장수{END}
+
+[S01F38F]  N0E#30 N0E#33
+JP: 超魔装機エウリード{END}
+KO: 초마장기 에우리드{END}
+
+[S01F39D]  N0E#31
+JP: 迫撃のザシュフォード{END}
+KO: 추격의 잣슈포드{END}
+
+[S01F3AA]  N0E#32
+JP: めぐりあい{END}
+KO: 해후{END}
+
+[S01F3B0]  N0E#34
+JP: 呪われし者{END}
+KO: 저주받은 자{END}
+
+[S01F3B8]  N0E#36 N0E#37 N0E#38 N0E#39
+JP: シュウ、目覚める{END}
+KO: 슈우, 깨어나다{END}
+
+[S01F3C3]  N0E#3D
+JP: 戦国魔神ゴーショーグン{END}
+KO: 전국마신 고쇼군{END}
+
+[S01F3D3]  N0E#3E
+JP: ヌエット海{END}
+KO: 누에트 해{END}
+
+[S01F3DA]  N0E#3F
+JP: バゴニアの傭兵{END}
+KO: 바고니아의 용병{END}
+
+[S01F3E4]  N0E#40
+JP: リューネ＝ゾルダーク{END}
+KO: 류네 졸다크{END}
+
+[S01F3EF]  N0E#41
+JP: 復讐の騎士{END}
+KO: 복수의 기사{END}
+
+[S01F3F9]  N0E#42
+JP: モニカ、その愛{END}
+KO: 모니카, 그 사랑{END}
+
+[S01F402]  N0E#43
+JP: 遭遇、サイバスター{END}
+KO: 조우, 사이버스터{END}
+
+[S01F40E]  N0E#44
+JP: ノルス奪取{END}
+KO: 노르스 탈취{END}
+
+[S01F416]  N0E#45
+JP: 闇のささやき{END}
+KO: 어둠의 속삭임{END}
+
+[S01F41E]  N0E#46
+JP: テリウスの決意{END}
+KO: 테리우스의 결의{END}
+
+[S01F428]  N0E#47
+JP: 特訓{END}
+KO: 특훈{END}
+
+[S01F42D]  N0E#48
+JP: ジハード{END}
+KO: 지하드{END}
+
+[S01F432]  N0E#49
+JP: 封印{END}
+KO: 봉인{END}
+
+[S01F437]  N0E#4A
+JP: 邪神解放{END}
+KO: 사신 해방{END}
+
+[S01F440]  N0E#4B
+JP: 反逆{END}
+KO: 반역{END}
+
+[S01F445]  N0E#4C N0E#4D N0E#4E N0E#4F
+JP: トレーニング{END}
+KO: 트레이닝{END}

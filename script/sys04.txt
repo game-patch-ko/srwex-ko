@@ -1,0 +1,479 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (sys04)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S01D516]  N04#00
+JP: {END}
+KO: 
+
+[S01D517]  N04#01
+JP: ダンバイン{END}
+KO: 단바인{END}
+
+[S01D51D]  N04#02 N04#03
+JP: ビルバイン{END}
+KO: 빌바인{END}
+
+[S01D523]  N04#04
+JP: ビランビー{END}
+KO: 비란비{END}
+
+[S01D529]  N04#05
+JP: レプラカーン{END}
+KO: 레프라칸{END}
+
+[S01D530]  N04#06 N04#42
+JP: ズワース{END}
+KO: 즈와스{END}
+
+[S01D535]  N04#07
+JP: ビアレス{END}
+KO: 비알레스{END}
+
+[S01D53A]  N04#08
+JP: ライネック{END}
+KO: 라이넥{END}
+
+[S01D540]  N04#09
+JP: バストール{END}
+KO: 바스톨{END}
+
+[S01D546]  N04#0A
+JP: ボゾン{END}
+KO: 보존{END}
+
+[S01D54A]  N04#0B
+JP: ボチューン{END}
+KO: 보츈{END}
+
+[S01D550]  N04#0C
+JP: ゴーショーグン{END}
+KO: 고쇼군{END}
+
+[S01D558]  N04#0D
+JP: ザムジード{END}
+KO: 잠지드{END}
+
+[S01D55E]  N04#0E
+JP: グランヴェール{END}
+KO: 그란벨{END}
+
+[S01D566]  N04#0F
+JP: ガッデス{END}
+KO: 갓데스{END}
+
+[S01D56B]  N04#10
+JP: ディアブロ{END}
+KO: 디아블로{END}
+
+[S01D571]  N04#11
+JP: ガルガード{END}
+KO: 갈가드{END}
+
+[S01D577]  N04#12
+JP: ジャオーム{END}
+KO: 쟈옴{END}
+
+[S01D57D]  N04#13
+JP: デュラクシール{END}
+KO: 듀라크실{END}
+
+[S01D585]  N04#14
+JP: ゼンⅡ{END}
+KO: 젠Ⅱ{END}
+
+[S01D589]  N04#15
+JP: {END}
+KO: 
+
+[S01D58A]  N04#16
+JP: ゲッタードラゴン{END}
+KO: 게타드래곤{END}
+
+[S01D593]  N04#17
+JP: ゲッターライガー{END}
+KO: 게타라이거{END}
+
+[S01D59C]  N04#18
+JP: ゲッターポセイドン{END}
+KO: 게타포세이돈{END}
+
+[S01D5A6]  N04#19
+JP: ヴァルシオン{END}
+KO: 발시온{END}
+
+[S01D5AD]  N04#1A
+JP: グレンダイザー{END}
+KO: 그렌다이저{END}
+
+[S01D5B5]  N04#1B
+JP: スペイザー{END}
+KO: 스페이저{END}
+
+[S01D5BB]  N04#1C
+JP: マジンガーZ{END}
+KO: 마징가Z{END}
+
+[S01D5C2]  N04#1D
+JP: ブンドル艦{END}
+KO: 분돌 함{END}
+
+[S01D5C9]  N04#1E
+JP: グレートマジンガー{END}
+KO: 그레이트마징가{END}
+
+[S01D5D3]  N04#1F
+JP: νガンダム{END}
+KO: ν건담{END}
+
+[S01D5D9]  N04#20
+JP: Zガンダム{END}
+KO: Z건담{END}
+
+[S01D5DF]  N04#21
+JP: ウェイブライダー{END}
+KO: 웨이브라이더{END}
+
+[S01D5E8]  N04#22
+JP: ZZガンダム{END}
+KO: ZZ건담{END}
+
+[S01D5EF]  N04#23
+JP: Gフォートレス{END}
+KO: G포트리스{END}
+
+[S01D5F7]  N04#24
+JP: Fー91{END}
+KO: F-91{END}
+
+[S01D5FC]  N04#26
+JP: 機装兵{END}
+KO: 기장병{END}
+
+[S01D603]  N04#25 N04#27
+JP: デモンゴーレム{END}
+KO: 데몬골렘{END}
+
+[S01D60B]  N04#28
+JP: ルジャノール改{END}
+KO: 루쟈놀 개{END}
+
+[S01D614]  N04#29
+JP: ギルドーラⅡ{END}
+KO: 길도라Ⅱ{END}
+
+[S01D61B]  N04#2A
+JP: ブローウェル{END}
+KO: 브로웰{END}
+
+[S01D622]  N04#2B
+JP: グラフ・ドローン改{END}
+KO: 그라프・드론 개{END}
+
+[S01D62D]  N04#2C
+JP: ガディフォール{END}
+KO: 가디폴{END}
+
+[S01D635]  N04#2D
+JP: ギルドーラ{END}
+KO: 길도라{END}
+
+[S01D63B]  N04#2E N04#2F N04#30
+JP: ヴォルクルス{END}
+KO: 볼크루스{END}
+
+[S01D642]  N04#31
+JP: ソルガディ{END}
+KO: 솔가디{END}
+
+[S01D648]  N04#32 N04#34
+JP: ナグツァート{END}
+KO: 나그차트{END}
+
+[S01D64F]  N04#33
+JP: エウリード{END}
+KO: 에우리드{END}
+
+[S01D655]  N04#35
+JP: ゲルググM{END}
+KO: 겔구그M{END}
+
+[S01D65B]  N04#36
+JP: サイバスター{END}
+KO: 사이버스터{END}
+
+[S01D662]  N04#37
+JP: サイバード{END}
+KO: 사이버드{END}
+
+[S01D668]  N04#38
+JP: グランゾン{END}
+KO: 그란존{END}
+
+[S01D66E]  N04#39
+JP: ヴァルシオーネ{END}
+KO: 발시오네{END}
+
+[S01D676]  N04#3A
+JP: ダイアナンA{END}
+KO: 다이아난A{END}
+
+[S01D67D]  N04#3B N04#63
+JP: ガンダムmkⅡ{END}
+KO: 건담mkⅡ{END}
+
+[S01D685]  N04#3C
+JP: 百式{END}
+KO: 백식{END}
+
+[S01D68A]  N04#3D
+JP: GPー01Fb{END}
+KO: GP-01Fb{END}
+
+[S01D692]  N04#3E N04#3F
+JP: メタス{END}
+KO: 메타스{END}
+
+[S01D696]  N04#40
+JP: ザク{END}
+KO: 자쿠{END}
+
+[S01D699]  N04#41
+JP: ドム{END}
+KO: 돔{END}
+
+[S01D69C]  N04#43
+JP: ゴリアテ{END}
+KO: 골리앗{END}
+
+[S01D6A1]  N04#44
+JP: バフォーム{END}
+KO: 바폼{END}
+
+[S01D6A7]  N04#45
+JP: ベルガ・ギロス{END}
+KO: 베르가・기로스{END}
+
+[S01D6AF]  N04#46
+JP: マラサイ{END}
+KO: 마라사이{END}
+
+[S01D6B4]  N04#47
+JP: ノルス{END}
+KO: 노르스{END}
+
+[S01D6B8]  N04#48
+JP: ブローウェルカスタム{END}
+KO: 브로웰 커스텀{END}
+
+[S01D6C3]  N04#49
+JP: レンファ{END}
+KO: 렌파{END}
+
+[S01D6C8]  N04#4A
+JP: ナグロッド{END}
+KO: 나그로드{END}
+
+[S01D6CE]  N04#4B N04#4C
+JP: ハンブラビ{END}
+KO: 함브라비{END}
+
+[S01D6D4]  N04#4D N04#4E
+JP: バウンドドック{END}
+KO: 바운드독{END}
+
+[S01D6DC]  N04#4F
+JP: キュベレイ{END}
+KO: 큐베레이{END}
+
+[S01D6E2]  N04#50
+JP: キュベレイmkⅡ{END}
+KO: 큐베레이mkⅡ{END}
+
+[S01D6EB]  N04#51 N04#52
+JP: サイコガンダムmkⅡ{END}
+KO: 사이코건담mkⅡ{END}
+
+[S01D6F6]  N04#53
+JP: ズサ{END}
+KO: 즈사{END}
+
+[S01D6F9]  N04#54
+JP: ドライセン{END}
+KO: 드라이센{END}
+
+[S01D6FF]  N04#55
+JP: カプール{END}
+KO: 카풀{END}
+
+[S01D704]  N04#56
+JP: グラフ・ドローン{END}
+KO: 그라프・드론{END}
+
+[S01D70D]  N04#57
+JP: ウィーゾル{END}
+KO: 위졸{END}
+
+[S01D713]  N04#58
+JP: ザクⅢ{END}
+KO: 자쿠Ⅲ{END}
+
+[S01D717]  N04#59
+JP: ザクⅢ改{END}
+KO: 자쿠Ⅲ개{END}
+
+[S01D71D]  N04#5A
+JP: ドーベンウルフ{END}
+KO: 도벤울프{END}
+
+[S01D725]  N04#5B
+JP: {END}
+KO: 
+
+[S01D726]  N04#5C
+JP: クイン・マンサ{END}
+KO: 퀸・만사{END}
+
+[S01D72E]  N04#5D N04#5E
+JP: ギラ・ドーガ{END}
+KO: 기라・도가{END}
+
+[S01D735]  N04#5F N04#60 N04#61
+JP: ヤクト・ドーガ{END}
+KO: 약트・도가{END}
+
+[S01D73D]  N04#62
+JP: サザビー{END}
+KO: 사자비{END}
+
+[S01D742]  N04#64
+JP: GPー02{END}
+KO: GP-02{END}
+
+[S01D748]  N04#65
+JP: ガラダK7{END}
+KO: 가라다K7{END}
+
+[S01D74E]  N04#66
+JP: ダブラスM2{END}
+KO: 다브라스M2{END}
+
+[S01D755]  N04#67
+JP: ラインX1{END}
+KO: 라인X1{END}
+
+[S01D75B]  N04#68
+JP: ジェノバM9{END}
+KO: 제노바M9{END}
+
+[S01D762]  N04#69
+JP: スパルタンK5{END}
+KO: 스파르탄K5{END}
+
+[S01D76A]  N04#6A
+JP: {END}
+KO: 
+
+[S01D76B]  N04#6B
+JP: アブドラU6{END}
+KO: 아브도라U6{END}
+
+[S01D772]  N04#6C
+JP: ザイ{END}
+KO: 자이{END}
+
+[S01D775]  N04#6D
+JP: ズー{END}
+KO: 주{END}
+
+[S01D778]  N04#6E
+JP: バド{END}
+KO: 바드{END}
+
+[S01D77B]  N04#6F
+JP: サキ{END}
+KO: 사키{END}
+
+[S01D77E]  N04#70
+JP: シグ{END}
+KO: 시그{END}
+
+[S01D781]  N04#71
+JP: ダイ{END}
+KO: 다이{END}
+
+[S01D784]  N04#72
+JP: ギルギル{END}
+KO: 길길{END}
+
+[S01D789]  N04#73
+JP: グール{END}
+KO: 구울{END}
+
+[S01D78D]  N04#74
+JP: ボスボロット{END}
+KO: 보스보롯{END}
+
+[S01D794]  N04#75
+JP: ピグトロン{END}
+KO: 피그트론{END}
+
+[S01D79A]  N04#76
+JP: トロスD7{END}
+KO: 트로스D7{END}
+
+[S01D7A0]  N04#77
+JP: グラトニオス{END}
+KO: 그라토니오스{END}
+
+[S01D7A7]  N04#78
+JP: ウィルウィプス{END}
+KO: 윌위프스{END}
+
+[S01D7AF]  N04#79
+JP: ゴラオン{END}
+KO: 고라온{END}
+
+[S01D7B4]  N04#7A
+JP: グランガラン{END}
+KO: 그란가란{END}
+
+[S01D7BB]  N04#7B
+JP: 移動要塞{END}
+KO: 이동 요새{END}
+
+[S01D7C4]  N04#7C
+JP: ギルギルガン{END}
+KO: 길길건{END}
+
+[S01D7CB]  N04#7D
+JP: メカギルギルガン{END}
+KO: 메카길길건{END}
+
+[S01D7D4]  N04#7E
+JP: ネオ・グランゾン{END}
+KO: 네오・그란존{END}
+
+[S01D7DD]  N04#7F
+JP: {END}
+KO: 
+
+[S01D7DE]  N04#80
+JP: {END}
+KO: 
+
+[S01D7DF]  N04#81
+JP: ヴァルシオン改{END}
+KO: 발시온 개{END}
+
+[S01D7E8]  N04#82
+JP: {END}
+KO: 
+
+[S01D7E9]  N04#83 N04#84 N04#85 N04#86
+JP: ーーーーーーーーーー{END}
+KO: 

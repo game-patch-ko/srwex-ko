@@ -1,0 +1,663 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (sys06)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S01E01B]  N06#00 N06#01 N06#02
+JP: {END}
+KO: 
+
+[S01E01C]  N06#03
+JP: アムロ{END}
+KO: 아무로{END}
+
+[S01E020]  N06#04
+JP: カミーユ{END}
+KO: 카미유{END}
+
+[S01E025]  N06#05
+JP: ジュドー{END}
+KO: 쥬도{END}
+
+[S01E02A]  N06#06
+JP: シーブック{END}
+KO: 시북{END}
+
+[S01E030]  N06#07
+JP: ベンケイ{END}
+KO: 벤케이{END}
+
+[S01E035]  N06#08
+JP: リョウ{END}
+KO: 료{END}
+
+[S01E039]  N06#09
+JP: ハヤト{END}
+KO: 하야토{END}
+
+[S01E03D]  N06#0A
+JP: 真吾{END}
+KO: 신고{END}
+
+[S01E042]  N06#0B
+JP: レミー{END}
+KO: 레미{END}
+
+[S01E046]  N06#0C
+JP: キリー{END}
+KO: 키리{END}
+
+[S01E04A]  N06#0D
+JP: ブンドル{END}
+KO: 분돌{END}
+
+[S01E04F]  N06#0E
+JP: ケルナグール{END}
+KO: 케르나굴{END}
+
+[S01E056]  N06#0F
+JP: カットナル{END}
+KO: 캇트나르{END}
+
+[S01E05C]  N06#10
+JP: ショウ{END}
+KO: 쇼우{END}
+
+[S01E060]  N06#11
+JP: チャム{END}
+KO: 챰{END}
+
+[S01E064]  N06#12
+JP: マーベル{END}
+KO: 마벨{END}
+
+[S01E069]  N06#13
+JP: シーラ{END}
+KO: 시라{END}
+
+[S01E06D]  N06#14
+JP: エレ{END}
+KO: 엘레{END}
+
+[S01E070]  N06#15
+JP: トッド{END}
+KO: 토드{END}
+
+[S01E074]  N06#16
+JP: バーン{END}
+KO: 반{END}
+
+[S01E078]  N06#17
+JP: ニー{END}
+KO: 니{END}
+
+[S01E07B]  N06#18
+JP: キーン{END}
+KO: 킨{END}
+
+[S01E07F]  N06#19
+JP: リムル{END}
+KO: 림루{END}
+
+[S01E083]  N06#1A
+JP: ガラリア{END}
+KO: 갈라리아{END}
+
+[S01E088]  N06#1B
+JP: エイブ{END}
+KO: 에이브{END}
+
+[S01E08C]  N06#1C
+JP: エル{END}
+KO: 엘{END}
+
+[S01E08F]  N06#1D
+JP: セイラ{END}
+KO: 세이라{END}
+
+[S01E093]  N06#1E
+JP: エマ{END}
+KO: 엠마{END}
+
+[S01E096]  N06#1F
+JP: レコア{END}
+KO: 레코아{END}
+
+[S01E09A]  N06#20
+JP: ファ{END}
+KO: 화{END}
+
+[S01E09D]  N06#21
+JP: クワトロ{END}
+KO: 쿠와트로{END}
+
+[S01E0A2]  N06#22
+JP: カツ{END}
+KO: 카츠{END}
+
+[S01E0A5]  N06#23
+JP: エル{END}
+KO: 엘{END}
+
+[S01E0A8]  N06#24
+JP: ルー{END}
+KO: 루{END}
+
+[S01E0AB]  N06#25
+JP: イーノ{END}
+KO: 이노{END}
+
+[S01E0AF]  N06#26
+JP: ビーチャ{END}
+KO: 비차{END}
+
+[S01E0B4]  N06#27
+JP: モンド{END}
+KO: 몬도{END}
+
+[S01E0B8]  N06#28
+JP: セシリー{END}
+KO: 세실리{END}
+
+[S01E0BD]  N06#29
+JP: さやか{END}
+KO: 사야카{END}
+
+[S01E0C1]  N06#2A
+JP: ボス{END}
+KO: 보스{END}
+
+[S01E0C4]  N06#2B
+JP: 鉄也{END}
+KO: 테츠야{END}
+
+[S01E0C9]  N06#2C
+JP: ジュン{END}
+KO: 쥰{END}
+
+[S01E0CD]  N06#2D
+JP: 甲児{END}
+KO: 코우지{END}
+
+[S01E0D2]  N06#2E
+JP: ゴルド{END}
+KO: 골드{END}
+
+[S01E0D6]  N06#2F
+JP: 山賊{END}
+KO: 산적{END}
+
+[S01E0DB]  N06#30
+JP: フェイ{END}
+KO: 페이{END}
+
+[S01E0DF]  N06#31
+JP: アレン{END}
+KO: 알렌{END}
+
+[S01E0E3]  N06#32
+JP: ジェリル{END}
+KO: 제릴{END}
+
+[S01E0E8]  N06#33
+JP: ゼット{END}
+KO: 제트{END}
+
+[S01E0EC]  N06#34
+JP: ドレイク{END}
+KO: 드레이크{END}
+
+[S01E0F1]  N06#35
+JP: ガラミティ{END}
+KO: 가라미티{END}
+
+[S01E0F7]  N06#36
+JP: ダー{END}
+KO: 다{END}
+
+[S01E0FA]  N06#37
+JP: ニェット{END}
+KO: 니에트{END}
+
+[S01E0FF]  N06#38
+JP: ベル{END}
+KO: 벨{END}
+
+[S01E102]  N06#39
+JP: トールス{END}
+KO: 톨스{END}
+
+[S01E107]  N06#3A
+JP: ジョグ{END}
+KO: 조그{END}
+
+[S01E10B]  N06#3B
+JP: ガテゼルク{END}
+KO: 가테젤크{END}
+
+[S01E111]  N06#3C
+JP: ガイア{END}
+KO: 가이아{END}
+
+[S01E115]  N06#3D
+JP: マッシュ{END}
+KO: 매쉬{END}
+
+[S01E11A]  N06#3E
+JP: オルテガ{END}
+KO: 오르테가{END}
+
+[S01E11F]  N06#3F
+JP: ラル{END}
+KO: 랄{END}
+
+[S01E122]  N06#40
+JP: シャア{END}
+KO: 샤아{END}
+
+[S01E126]  N06#41
+JP: ジェリド{END}
+KO: 제리드{END}
+
+[S01E12B]  N06#42
+JP: カクリコン{END}
+KO: 카크리콘{END}
+
+[S01E131]  N06#43
+JP: ライラ{END}
+KO: 라일라{END}
+
+[S01E135]  N06#44
+JP: フォウ{END}
+KO: 포우{END}
+
+[S01E139]  N06#45
+JP: ロザミア{END}
+KO: 로자미아{END}
+
+[S01E13E]  N06#46
+JP: ザッシュ{END}
+KO: 잣슈{END}
+
+[S01E143]  N06#47
+JP: ブラン{END}
+KO: 브란{END}
+
+[S01E147]  N06#48
+JP: サラ{END}
+KO: 사라{END}
+
+[S01E14A]  N06#49
+JP: マウアー{END}
+KO: 마우아{END}
+
+[S01E14F]  N06#4A
+JP: ランシャオ{END}
+KO: 란샤오{END}
+
+[S01E155]  N06#4B
+JP: ヤザン{END}
+KO: 야잔{END}
+
+[S01E159]  N06#4C
+JP: キャラ{END}
+KO: 캬라{END}
+
+[S01E15D]  N06#4D
+JP: ラカン{END}
+KO: 라칸{END}
+
+[S01E161]  N06#4E
+JP: ハマーン{END}
+KO: 하만{END}
+
+[S01E166]  N06#4F
+JP: プル{END}
+KO: 플{END}
+
+[S01E169]  N06#50
+JP: マシュマー{END}
+KO: 마슈마{END}
+
+[S01E16F]  N06#51
+JP: ゴットン{END}
+KO: 고튼{END}
+
+[S01E174]  N06#52
+JP: プルツー{END}
+KO: 플투{END}
+
+[S01E179]  N06#53
+JP: ミオ{END}
+KO: 미오{END}
+
+[S01E17C]  N06#54
+JP: テュッティ{END}
+KO: 튜티{END}
+
+[S01E182]  N06#55
+JP: ヤンロン{END}
+KO: 얀론{END}
+
+[S01E187]  N06#56
+JP: カークス{END}
+KO: 카크스{END}
+
+[S01E18C]  N06#57
+JP: フェイル{END}
+KO: 페일{END}
+
+[S01E191]  N06#58
+JP: モニカ{END}
+KO: 모니카{END}
+
+[S01E195]  N06#59
+JP: セニア{END}
+KO: 세니아{END}
+
+[S01E199]  N06#5A
+JP: テリウス{END}
+KO: 테리우스{END}
+
+[S01E19E]  N06#5B
+JP: プレシア{END}
+KO: 프레시아{END}
+
+[S01E1A3]  N06#5C
+JP: ルオゾール{END}
+KO: 루오졸{END}
+
+[S01E1A9]  N06#5D
+JP: イブン{END}
+KO: 이븐{END}
+
+[S01E1AD]  N06#5E
+JP: ギュネイ{END}
+KO: 귀네이{END}
+
+[S01E1B2]  N06#5F
+JP: クリス{END}
+KO: 크리스{END}
+
+[S01E1B6]  N06#60
+JP: バーニィ{END}
+KO: 버니{END}
+
+[S01E1BB]  N06#61
+JP: シロ{END}
+KO: 시로{END}
+
+[S01E1BE]  N06#62
+JP: クロ{END}
+KO: 쿠로{END}
+
+[S01E1C1]  N06#63
+JP: フレキ{END}
+KO: 프레키{END}
+
+[S01E1C5]  N06#64
+JP: ゲリ{END}
+KO: 게리{END}
+
+[S01E1C8]  N06#65
+JP: ハサウェイ{END}
+KO: 하사웨이{END}
+
+[S01E1CE]  N06#66
+JP: ケーラ{END}
+KO: 케라{END}
+
+[S01E1D2]  N06#67
+JP: クェス{END}
+KO: 퀘스{END}
+
+[S01E1D6]  N06#68
+JP: チェーン{END}
+KO: 체인{END}
+
+[S01E1DB]  N06#69
+JP: ナナイ{END}
+KO: 나나이{END}
+
+[S01E1DF]  N06#6A
+JP: レズン{END}
+KO: 레즌{END}
+
+[S01E1E3]  N06#6B
+JP: ザンボス{END}
+KO: 잔보스{END}
+
+[S01E1E8]  N06#6C
+JP: ロドニー{END}
+KO: 로드니{END}
+
+[S01E1ED]  N06#6D
+JP: オールト{END}
+KO: 올트{END}
+
+[S01E1F2]  N06#6E
+JP: ノボス{END}
+KO: 노보스{END}
+
+[S01E1F6]  N06#6F
+JP: ザレス{END}
+KO: 자레스{END}
+
+[S01E1FA]  N06#70
+JP: リッジ{END}
+KO: 릿지{END}
+
+[S01E1FE]  N06#71
+JP: ベルトーチカ{END}
+KO: 벨토치카{END}
+
+[S01E205]  N06#72
+JP: シュタイナー{END}
+KO: 슈타이너{END}
+
+[S01E20C]  N06#73
+JP: リィナ{END}
+KO: 리나{END}
+
+[S01E210]  N06#74
+JP: ラテル{END}
+KO: 라텔{END}
+
+[S01E214]  N06#75
+JP: ニナ{END}
+KO: 니나{END}
+
+[S01E217]  N06#76
+JP: アナウンサー{END}
+KO: 아나운서{END}
+
+[S01E21E]  N06#77
+JP: コウ{END}
+KO: 코우{END}
+
+[S01E221]  N06#78
+JP: ガトー{END}
+KO: 가토{END}
+
+[S01E225]  N06#79
+JP: ひかる{END}
+KO: 히카루{END}
+
+[S01E229]  N06#7A
+JP: デューク{END}
+KO: 듀크{END}
+
+[S01E22E]  N06#7B
+JP: マリア{END}
+KO: 마리아{END}
+
+[S01E232]  N06#7C
+JP: あしゅら{END}
+KO: 아수라{END}
+
+[S01E237]  N06#7D
+JP: ブロッケン{END}
+KO: 브로켄{END}
+
+[S01E23D]  N06#7E
+JP: リューネ{END}
+KO: 류네{END}
+
+[S01E242]  N06#7F
+JP: マサキ{END}
+KO: 마사키{END}
+
+[S01E246]  N06#80
+JP: シュウ{END}
+KO: 슈우{END}
+
+[S01E24A]  N06#81
+JP: アハマド{END}
+KO: 아하마드{END}
+
+[S01E24F]  N06#82
+JP: ゲンナジー{END}
+KO: 겐나지{END}
+
+[S01E255]  N06#83
+JP: シーマ{END}
+KO: 시마{END}
+
+[S01E259]  N06#84
+JP: キリカ{END}
+KO: 키리카{END}
+
+[S01E25D]  N06#85
+JP: ハロ{END}
+KO: 하로{END}
+
+[S01E260]  N06#86
+JP: DC兵士{END}
+KO: DC병사{END}
+
+[S01E267]  N06#87 N06#88 N06#89 N06#8A
+JP: 兵士{END}
+KO: 병사{END}
+
+[S01E26C]  N06#8B
+JP: {END}
+KO: 
+
+[S01E26D]  N06#8C
+JP: 人工知能{END}
+KO: 인공지능{END}
+
+[S01E276]  N06#8D
+JP: 人工知能改{END}
+KO: 인공지능 개{END}
+
+[S01E281]  N06#8E
+JP: ゴドル{END}
+KO: 고돌{END}
+
+[S01E285]  N06#8F
+JP: サフィーネ{END}
+KO: 사피네{END}
+
+[S01E28B]  N06#90
+JP: チカ{END}
+KO: 치카{END}
+
+[S01E28E]  N06#91
+JP: ザボド{END}
+KO: 자보드{END}
+
+[S01E292]  N06#92
+JP: ディック{END}
+KO: 딕{END}
+
+[S01E297]  N06#93
+JP: ギボン{END}
+KO: 기본{END}
+
+[S01E29B]  N06#95
+JP: エリス{END}
+KO: 에리스{END}
+
+[S01E29F]  N06#96
+JP: リシェル{END}
+KO: 리셸{END}
+
+[S01E2A4]  N06#97
+JP: ミラ{END}
+KO: 미라{END}
+
+[S01E2A7]  N06#98
+JP: 兵士A{END}
+KO: 병사A{END}
+
+[S01E2AD]  N06#99
+JP: 兵士B{END}
+KO: 병사B{END}
+
+[S01E2B3]  N06#9A
+JP: レスリー{END}
+KO: 레슬리{END}
+
+[S01E2B8]  N06#9B N06#9C
+JP: ヴォルクルス{END}
+KO: 볼크루스{END}
+
+[S01E2BF]  N06#9D N06#9E N06#9F
+JP: エリート兵{END}
+KO: 엘리트병{END}
+
+[S01E2C6]  N06#A0
+JP: 大尉{END}
+KO: 대위{END}
+
+[S01E2CB]  N06#A1
+JP: {END}
+KO: 
+
+[S01E2CC]  N06#A2 N06#A3 N06#A4 N06#A5
+JP: {END}
+KO: 
+
+[S01E2CD]  N06#A6
+JP: {END}
+KO: 
+
+[S01E2CE]  N06#A7
+JP: {END}
+KO: 
+
+[S01E2CF]  N06#A8
+JP: {END}
+KO: 
+
+[S01E2D0]  N06#A9
+JP: {END}
+KO: 
+
+[S01E2D1]  N06#AA
+JP: {END}
+KO: 
+
+[S01E2D2]  N06#AB
+JP: {END}
+KO: 
+
+[S01E2D3]  N06#AC
+JP: {END}
+KO: 
+
+[S01E2D4]  N06#AD
+JP: {END}
+KO: 
+
+[S01E2D5]  N06#AE
+JP: {END}
+KO: 
+
+[S01E2D6]  N06#AF
+JP: ーーーーーーーー{END}
+KO: 

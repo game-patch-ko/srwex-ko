@@ -1,0 +1,27 @@
+# ROM과 세이브 (배포 금지)
+*.smc
+*.sfc
+*.srm
+*.mss
+
+# 빌드 결과와 배포 파일 (Release 첨부로 배포)
+out/
+dist/*.ips
+dist/*.xdelta
+*.zip
+
+# 외부 도구·글꼴·대용량 캡처
+tools/mesen/
+tools/patchers/
+tools/fonts/
+tools/shots/
+
+# 실행할 때마다 만드는 Lua (생성기 *.py만 보관)
+tools/rt/*.lua
+!tools/rt/wlim.lua
+
+# 3차 한글화 저장소(game-patch-ko/srw3-ko)에서 복사한 참고 사본
+ref3/
+
+__pycache__/
+*.pyc

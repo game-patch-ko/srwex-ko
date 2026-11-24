@@ -1,0 +1,519 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (sys0C)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S01F54C]  N0C#00
+JP: {END}
+KO: 
+
+[S01F54D]  N0C#01
+JP: じょうちゅうおんしょく{END}
+KO: 조추온쇼쿠{END}
+
+[S01F559]  N0C#02
+JP: マジンガーZ{END}
+KO: 마징가Z{END}
+
+[S01F560]  N0C#03
+JP: ゲッターロボ!{END}
+KO: 게타로보!{END}
+
+[S01F568]  N0C#04
+JP: 魔装機神サイバスター{END}
+KO: 마장기신 사이버스터{END}
+
+[S01F577]  N0C#05
+JP: ゴーショーグン発進せよ!{END}
+KO: 고쇼군 발진하라!{END}
+
+[S01F586]  N0C#06
+JP: 時の彼方へ{END}
+KO: 시간의 저편으로{END}
+
+[S01F58F]  N0C#07
+JP: 荒野{END}
+KO: 황야{END}
+
+[S01F594]  N0C#08
+JP: 胞子の谷{END}
+KO: 포자의 계곡{END}
+
+[S01F59C]  N0C#09
+JP: 時を越えて{END}
+KO: 시간을 넘어{END}
+
+[S01F5A4]  N0C#0A
+JP: 予感{END}
+KO: 예감{END}
+
+[S01F5A9]  N0C#0B
+JP: アイキャッチ{END}
+KO: 아이캐치{END}
+
+[S01F5B0]  N0C#0C
+JP: 始動{END}
+KO: 시동{END}
+
+[S01F5B5]  N0C#0D
+JP: 追難の風{END}
+KO: 추난의 바람{END}
+
+[S01F5BD]  N0C#0E
+JP: ダンバインとぶ{END}
+KO: 단바인 날다{END}
+
+[S01F5C5]  N0C#0F
+JP: 生と死のはざま{END}
+KO: 삶과 죽음 사이{END}
+
+[S01F5CF]  N0C#10
+JP: 君と一緒に{END}
+KO: 너와 함께{END}
+
+[S01F5D8]  N0C#11
+JP: ヴァルシオン{END}
+KO: 발시온{END}
+
+[S01F5DF]  N0C#12
+JP: ラングランの風{END}
+KO: 랑그란의 바람{END}
+
+[S01F5E8]  N0C#13
+JP: ネオ・グランゾン{END}
+KO: 네오・그란존{END}
+
+[S01F5F1]  N0C#14
+JP: バトル・フィールド{END}
+KO: 배틀・필드{END}
+
+[S01F5FB]  N0C#15
+JP: 精霊の加護{END}
+KO: 정령의 가호{END}
+
+[S01F605]  N0C#16
+JP: 洞窟{END}
+KO: 동굴{END}
+
+[S01F60A]  N0C#17
+JP: 決戦{END}
+KO: 결전{END}
+
+[S01F60F]  N0C#18
+JP: さっそうたるシャア{END}
+KO: 늠름한 샤아{END}
+
+[S01F619]  N0C#19
+JP: BGM 23{END}
+KO: 
+
+[S01F620]  N0C#1A
+JP: 別離{END}
+KO: 이별{END}
+
+[S01F625]  N0C#1B
+JP: 衝撃{END}
+KO: 충격{END}
+
+[S01F62A]  N0C#1C
+JP: 暗闇の足おと{END}
+KO: 어둠의 발소리{END}
+
+[S01F634]  N0C#1D
+JP: レクイエム{END}
+KO: 레퀴엠{END}
+
+[S01F63A]  N0C#1E
+JP: 増援部隊{END}
+KO: 증원 부대{END}
+
+[S01F643]  N0C#1F
+JP: BGM 29{END}
+KO: 
+
+[S01F64A]  N0C#20
+JP: 迫りくる影{END}
+KO: 다가오는 그림자{END}
+
+[S01F652]  N0C#21
+JP: 追憶{END}
+KO: 추억{END}
+
+[S01F657]  N0C#22
+JP: レベルアップ{END}
+KO: 레벨업{END}
+
+[S01F65E]  N0C#23
+JP: データロード{END}
+KO: 데이터 로드{END}
+
+[S01F665]  N0C#24
+JP: 戦士の休息{END}
+KO: 전사의 휴식{END}
+
+[S01F66F]  N0C#25
+JP: 暗黒の神{END}
+KO: 암흑의 신{END}
+
+[S01F677]  N0C#26
+JP: SE 000{END}
+KO: 
+
+[S01F67E]  N0C#27
+JP: SE 001{END}
+KO: 
+
+[S01F685]  N0C#28
+JP: SE 002{END}
+KO: 
+
+[S01F68C]  N0C#29
+JP: SE 003{END}
+KO: 
+
+[S01F693]  N0C#2A
+JP: SE 004{END}
+KO: 
+
+[S01F69A]  N0C#2B
+JP: SE 005{END}
+KO: 
+
+[S01F6A1]  N0C#2C
+JP: SE 006{END}
+KO: 
+
+[S01F6A8]  N0C#2D
+JP: SE 007{END}
+KO: 
+
+[S01F6AF]  N0C#2E
+JP: SE 008{END}
+KO: 
+
+[S01F6B6]  N0C#2F
+JP: SE 009{END}
+KO: 
+
+[S01F6BD]  N0C#30
+JP: SE 010{END}
+KO: 
+
+[S01F6C4]  N0C#31
+JP: SE 011{END}
+KO: 
+
+[S01F6CB]  N0C#32
+JP: SE 012{END}
+KO: 
+
+[S01F6D2]  N0C#33
+JP: SE 013{END}
+KO: 
+
+[S01F6D9]  N0C#34
+JP: SE 014{END}
+KO: 
+
+[S01F6E0]  N0C#35
+JP: SE 015{END}
+KO: 
+
+[S01F6E7]  N0C#36
+JP: SE 016{END}
+KO: 
+
+[S01F6EE]  N0C#37
+JP: SE 017{END}
+KO: 
+
+[S01F6F5]  N0C#38
+JP: SE 018{END}
+KO: 
+
+[S01F6FC]  N0C#39
+JP: SE 019{END}
+KO: 
+
+[S01F703]  N0C#3A
+JP: SE 020{END}
+KO: 
+
+[S01F70A]  N0C#3B
+JP: SE 021{END}
+KO: 
+
+[S01F711]  N0C#3C
+JP: SE 022{END}
+KO: 
+
+[S01F718]  N0C#3D
+JP: SE 023{END}
+KO: 
+
+[S01F71F]  N0C#3E
+JP: SE 024{END}
+KO: 
+
+[S01F726]  N0C#3F
+JP: SE 025{END}
+KO: 
+
+[S01F72D]  N0C#40
+JP: SE 026{END}
+KO: 
+
+[S01F734]  N0C#41
+JP: SE 027{END}
+KO: 
+
+[S01F73B]  N0C#42
+JP: SE 028{END}
+KO: 
+
+[S01F742]  N0C#43
+JP: SE 029{END}
+KO: 
+
+[S01F749]  N0C#44
+JP: SE 030{END}
+KO: 
+
+[S01F750]  N0C#45
+JP: SE 031{END}
+KO: 
+
+[S01F757]  N0C#46
+JP: SE 032{END}
+KO: 
+
+[S01F75E]  N0C#47
+JP: SE 033{END}
+KO: 
+
+[S01F765]  N0C#48
+JP: SE 034{END}
+KO: 
+
+[S01F76C]  N0C#49
+JP: SE 035{END}
+KO: 
+
+[S01F773]  N0C#4A
+JP: SE 036{END}
+KO: 
+
+[S01F77A]  N0C#4B
+JP: SE 037{END}
+KO: 
+
+[S01F781]  N0C#4C
+JP: SE 038{END}
+KO: 
+
+[S01F788]  N0C#4D
+JP: SE 039{END}
+KO: 
+
+[S01F78F]  N0C#4E
+JP: SE 040{END}
+KO: 
+
+[S01F796]  N0C#4F
+JP: SE 041{END}
+KO: 
+
+[S01F79D]  N0C#50
+JP: SE 042{END}
+KO: 
+
+[S01F7A4]  N0C#51
+JP: SE 043{END}
+KO: 
+
+[S01F7AB]  N0C#52
+JP: SE 044{END}
+KO: 
+
+[S01F7B2]  N0C#53
+JP: SE 045{END}
+KO: 
+
+[S01F7B9]  N0C#54
+JP: SE 046{END}
+KO: 
+
+[S01F7C0]  N0C#55
+JP: SE 047{END}
+KO: 
+
+[S01F7C7]  N0C#56
+JP: SE 048{END}
+KO: 
+
+[S01F7CE]  N0C#57
+JP: SE 049{END}
+KO: 
+
+[S01F7D5]  N0C#58
+JP: SE 050{END}
+KO: 
+
+[S01F7DC]  N0C#59
+JP: SE 051{END}
+KO: 
+
+[S01F7E3]  N0C#5A
+JP: SE 052{END}
+KO: 
+
+[S01F7EA]  N0C#5B
+JP: SE 053{END}
+KO: 
+
+[S01F7F1]  N0C#5C
+JP: SE 054{END}
+KO: 
+
+[S01F7F8]  N0C#5D
+JP: SE 055{END}
+KO: 
+
+[S01F7FF]  N0C#5E
+JP: SE 056{END}
+KO: 
+
+[S01F806]  N0C#5F
+JP: SE 057{END}
+KO: 
+
+[S01F80D]  N0C#60
+JP: SE 058{END}
+KO: 
+
+[S01F814]  N0C#61
+JP: SE 059{END}
+KO: 
+
+[S01F81B]  N0C#62
+JP: SE 060{END}
+KO: 
+
+[S01F822]  N0C#63
+JP: SE 061{END}
+KO: 
+
+[S01F829]  N0C#64
+JP: SE 062{END}
+KO: 
+
+[S01F830]  N0C#65
+JP: SE 063{END}
+KO: 
+
+[S01F837]  N0C#66
+JP: SE 064{END}
+KO: 
+
+[S01F83E]  N0C#67
+JP: SE 065{END}
+KO: 
+
+[S01F845]  N0C#68
+JP: SE 066{END}
+KO: 
+
+[S01F84C]  N0C#69
+JP: SE 067{END}
+KO: 
+
+[S01F853]  N0C#6A
+JP: SE 068{END}
+KO: 
+
+[S01F85A]  N0C#6B
+JP: SE 069{END}
+KO: 
+
+[S01F861]  N0C#6C
+JP: SE 070{END}
+KO: 
+
+[S01F868]  N0C#6D
+JP: SE 071{END}
+KO: 
+
+[S01F86F]  N0C#6E
+JP: SE 072{END}
+KO: 
+
+[S01F876]  N0C#6F
+JP: SE 073{END}
+KO: 
+
+[S01F87D]  N0C#70
+JP: SE 074{END}
+KO: 
+
+[S01F884]  N0C#71
+JP: SE 075{END}
+KO: 
+
+[S01F88B]  N0C#72
+JP: SE 076{END}
+KO: 
+
+[S01F892]  N0C#73
+JP: SE 077{END}
+KO: 
+
+[S01F899]  N0C#74
+JP: SE 078{END}
+KO: 
+
+[S01F8A0]  N0C#75
+JP: SE 079{END}
+KO: 
+
+[S01F8A7]  N0C#76
+JP: SE 080{END}
+KO: 
+
+[S01F8AE]  N0C#77
+JP: SE 081{END}
+KO: 
+
+[S01F8B5]  N0C#78
+JP: SE 082{END}
+KO: 
+
+[S01F8BC]  N0C#79
+JP: SE 083{END}
+KO: 
+
+[S01F8C3]  N0C#7A
+JP: SE 084{END}
+KO: 
+
+[S01F8CA]  N0C#7B
+JP: SE 085{END}
+KO: 
+
+[S01F8D1]  N0C#7C
+JP: SE 086{END}
+KO: 
+
+[S01F8D8]  N0C#7D
+JP: SE 087{END}
+KO: 
+
+[S01F8DF]  N0C#7E
+JP: SE 088{END}
+KO: 
+
+[S01F8E6]  N0C#7F
+JP: SE 089{END}
+KO: 

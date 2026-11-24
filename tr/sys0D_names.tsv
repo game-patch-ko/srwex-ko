@@ -1,0 +1,87 @@
+S01EF74	{F6:83}%アップ{END}	{F6:83}%증가
+S01EF7B	{F6:83}%ダウン{END}	{F6:83}%감소
+S01EF82	 変化なし{END}	 변화 없음
+S01EF8A	{$F2FF}{$F2FF}{$F2FF}陸{END}	　　　육
+S01EF93	{$F2FF}{$F2FF}空陸{END}	　　공육
+S01EF9C	{$F2FF}{$F2FF}{$F2FF}空{END}	　　　공
+S01EFA5	{$F2FF}{$F2FF}水陸{END}	　　수육
+S01EFAE	{$F2FF}水陸空{END}	　수육공
+S01EFB7	{$F2FF}陸地中{END}	　육지중
+S01EFC0	空陸地中{END}	공륙지중
+S01EFC9	{$F2FF}{$F2FF}{$F2FF}水{END}	　　　수
+S01EFD2	{END}	
+S01EFD3	トレーニング{END}	트레이닝
+S01EFDA	マサキの章{END}	마사키 편
+S01EFE1	リューネの章{END}	류네 편
+S01EFE9	シュウの章{END}	슈우 편
+S01EFF0	{END}	
+S01EFF1	Iフィールド{END}	I필드
+S01EFF8	オーラバリア{END}	오라배리어
+S01EFFF	ビーム吸収{END}	빔흡수
+S01F007	分身{END}	분신
+S01F00C	{END}	
+S01F013	変形{END}	변형
+S01F018	{END}	
+S01F019	モビルスーツ系{END}	모빌슈트계
+S01F022	マジンガー系{END}	마징가계
+S01F02A	ゲッターロボ{END}	게타로보
+S01F031	オーラバトラー系{END}	오라배틀러계
+S01F03B	ゴーショーグン{END}	고쇼군
+S01F043	魔装機系{END}	마장기계
+S01F04C	オリジナル魔装機系{END}	오리지널마장기계
+S01F05A	無差別{END}	무차별
+S01F061	{END}	
+S01F062	ー{END}	
+S01F064	C{END}	
+S01F066	B{END}	
+S01F068	A{END}	
+S01F06A	根性{END}	근성
+S01F06F	ド根性{END}	투혼
+S01F075	補給{END}	보급
+S01F07A	友情{END}	우정
+S01F07F	信頼{END}	신뢰
+S01F084	愛{END}	사랑
+S01F087	激怒{END}	격노
+S01F08C	気合{END}	기합
+S01F091	加速{END}	가속
+S01F096	熱血{END}	열혈
+S01F09B	必中{END}	필중
+S01F0A0	ひらめき{END}	직감
+S01F0A5	幸運{END}	행운
+S01F0AA	覚醒{END}	각성
+S01F0AF	威圧{END}	위압
+S01F0B4	手加減{END}	봐주기
+S01F0BB	移動{END}	이동
+S01F0C0	攻撃{END}	공격
+S01F0C5	発進{END}	발진
+S01F0CA	変形{END}	변형
+S01F0CF	精神{END}	정신
+S01F0D4	説得{END}	설득
+S01F0D9	地中{END}	지중
+S01F0DE	水中{END}	수중
+S01F0E3	地上{END}	지상
+S01F0E8	空中{END}	공중
+S01F0ED	能力{END}	능력
+S01F0F2	待機{END}	대기
+S01F0F7	{END}	
+S01F0F8	反撃不能{END}	반격 불능
+S01F101	防御{END}	방어
+S01F106	回避{END}	회피
+S01F10B	{END}	
+S01F10C	必ず反撃!{END}	반드시 반격!
+S01F115	積極的に!{END}	적극적!
+S01F11E	効率よく!{END}	효율적!
+S01F126	反撃するな!{END}	반격금지!
+S01F12F	OFF{END}	
+S01F133	ON {END}	
+S01F137	モノラル{END}	모노
+S01F13C	ステレオ{END}	스테레오
+S01F141	パッド{END}	패드
+S01F145	マウス{END}	마우스
+S01F149	なし{END}	없음
+S01F14C	A {END}	
+S01F14F	B {END}	
+S01F152	X {END}	
+S01F155	Y {END}	
+S01F158	L {END}	
+S01F15B	R {END}	

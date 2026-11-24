@@ -1,0 +1,683 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (sys05)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S01D954]  N05#00 N05#01 N05#02
+JP: {END}
+KO: 
+
+[S01D955]  N05#03
+JP: アムロ＝レイ{END}
+KO: 아무로 레이{END}
+
+[S01D95C]  N05#04
+JP: カミーユ＝ビダン{END}
+KO: 카미유 비단{END}
+
+[S01D965]  N05#05
+JP: ジュドー＝アーシタ{END}
+KO: 쥬도 아시타{END}
+
+[S01D96F]  N05#06
+JP: シーブック＝アノー{END}
+KO: 시북 아노{END}
+
+[S01D979]  N05#07
+JP: 車弁慶{END}
+KO: 쿠루마 벤케이{END}
+
+[S01D980]  N05#08
+JP: 流竜馬{END}
+KO: 나가레 료마{END}
+
+[S01D987]  N05#09
+JP: 神隼人{END}
+KO: 진 하야토{END}
+
+[S01D98E]  N05#0A
+JP: 北条真吾{END}
+KO: 호조 신고{END}
+
+[S01D997]  N05#0B
+JP: レミー島田{END}
+KO: 레미 시마다{END}
+
+[S01D99F]  N05#0C
+JP: キリー＝ギャグレー{END}
+KO: 키리 갸그레{END}
+
+[S01D9A9]  N05#0D
+JP: レオナルド＝メディチ＝ブンドル{END}
+KO: 레오나르도 분돌{END}
+
+[S01D9B9]  N05#0E
+JP: ヤッター＝ラ＝ケルナグール{END}
+KO: 얏타 케르나굴{END}
+
+[S01D9C7]  N05#0F
+JP: スーグニ＝カットナル{END}
+KO: 스그니 캇트나르{END}
+
+[S01D9D2]  N05#10
+JP: ショウ＝ザマ{END}
+KO: 쇼우 자마{END}
+
+[S01D9D9]  N05#11
+JP: チャム＝ファウ{END}
+KO: 챰 파우{END}
+
+[S01D9E1]  N05#12
+JP: マーベル＝フローズン{END}
+KO: 마벨 프로즌{END}
+
+[S01D9EC]  N05#13
+JP: シーラ＝ラパーナ{END}
+KO: 시라 라파나{END}
+
+[S01D9F5]  N05#14
+JP: エレ＝ハンム{END}
+KO: 엘레 한무{END}
+
+[S01D9FC]  N05#15
+JP: トッド＝ギネス{END}
+KO: 토드 기네스{END}
+
+[S01DA04]  N05#16
+JP: バーン＝バニングス{END}
+KO: 반 바닝스{END}
+
+[S01DA0E]  N05#17
+JP: ニー＝ギブン{END}
+KO: 니 기븐{END}
+
+[S01DA15]  N05#18
+JP: キーン＝キッス{END}
+KO: 킨 키스{END}
+
+[S01DA1D]  N05#19
+JP: リムル＝ルフト{END}
+KO: 림루 루프트{END}
+
+[S01DA25]  N05#1A
+JP: ガラリア＝ニャムヒー{END}
+KO: 갈라리아 냐무히{END}
+
+[S01DA30]  N05#1B
+JP: エイブ＝タマリ{END}
+KO: 에이브 타마리{END}
+
+[S01DA38]  N05#1C
+JP: エル＝フィノ{END}
+KO: 엘 피노{END}
+
+[S01DA3F]  N05#1D
+JP: セイラ＝マス{END}
+KO: 세이라 마스{END}
+
+[S01DA46]  N05#1E
+JP: エマ＝シーン{END}
+KO: 엠마 신{END}
+
+[S01DA4D]  N05#1F
+JP: レコア＝ロンド{END}
+KO: 레코아 론도{END}
+
+[S01DA55]  N05#20
+JP: ファ＝ユイリィ{END}
+KO: 화 유이리{END}
+
+[S01DA5D]  N05#21
+JP: クワトロ＝バジーナ{END}
+KO: 쿠와트로 바지나{END}
+
+[S01DA67]  N05#22
+JP: カツ＝コバヤシ{END}
+KO: 카츠 코바야시{END}
+
+[S01DA6F]  N05#23
+JP: エル＝ビアンノ{END}
+KO: 엘 비안노{END}
+
+[S01DA77]  N05#24
+JP: ルー＝ルカ{END}
+KO: 루 루카{END}
+
+[S01DA7D]  N05#25
+JP: イーノ＝アッバーブ{END}
+KO: 이노 압바브{END}
+
+[S01DA87]  N05#26
+JP: ビーチャ＝オレーグ{END}
+KO: 비차 오레그{END}
+
+[S01DA91]  N05#27
+JP: モンド＝アガケ{END}
+KO: 몬도 아가케{END}
+
+[S01DA99]  N05#28
+JP: セシリー＝フェアチャイルド{END}
+KO: 세실리 페어차일드{END}
+
+[S01DAA7]  N05#29
+JP: 弓さやか{END}
+KO: 유미 사야카{END}
+
+[S01DAAD]  N05#2A
+JP: ボス{END}
+KO: 보스{END}
+
+[S01DAB0]  N05#2B
+JP: 剣鉄也{END}
+KO: 츠루기 테츠야{END}
+
+[S01DAB7]  N05#2C
+JP: 炎ジュン{END}
+KO: 호노오 쥰{END}
+
+[S01DABD]  N05#2D
+JP: 兜甲児{END}
+KO: 카부토 코우지{END}
+
+[S01DAC4]  N05#2E
+JP: ゴルド＝バゴルド{END}
+KO: 골드 바골드{END}
+
+[S01DACD]  N05#2F
+JP: 山賊{END}
+KO: 산적{END}
+
+[S01DAD2]  N05#30
+JP: フェイ＝チェンカ{END}
+KO: 페이 첸카{END}
+
+[S01DADB]  N05#31
+JP: アレン＝ブレディ{END}
+KO: 알렌 브레디{END}
+
+[S01DAE4]  N05#32
+JP: ジェリル＝クチビ{END}
+KO: 제릴 쿠치비{END}
+
+[S01DAED]  N05#33
+JP: ゼット＝ライト{END}
+KO: 제트 라이트{END}
+
+[S01DAF5]  N05#34
+JP: ドレイク＝ルフト{END}
+KO: 드레이크 루프트{END}
+
+[S01DAFE]  N05#35
+JP: ガラミティ＝マンガン{END}
+KO: 가라미티 망간{END}
+
+[S01DB09]  N05#36
+JP: ダー{END}
+KO: 다{END}
+
+[S01DB0C]  N05#37
+JP: ニェット{END}
+KO: 니에트{END}
+
+[S01DB11]  N05#38
+JP: ベル＝アール{END}
+KO: 벨 알{END}
+
+[S01DB18]  N05#39
+JP: トールス＝ゼテキネス{END}
+KO: 톨스 제테키네스{END}
+
+[S01DB23]  N05#3A
+JP: カンツォート＝ジョグ{END}
+KO: 칸초트 조그{END}
+
+[S01DB2E]  N05#3B
+JP: ガテゼルク{END}
+KO: 가테젤크{END}
+
+[S01DB34]  N05#3C
+JP: ガイア{END}
+KO: 가이아{END}
+
+[S01DB38]  N05#3D
+JP: マッシュ{END}
+KO: 매쉬{END}
+
+[S01DB3D]  N05#3E
+JP: オルテガ{END}
+KO: 오르테가{END}
+
+[S01DB42]  N05#3F
+JP: ランバ＝ラル{END}
+KO: 람바 랄{END}
+
+[S01DB49]  N05#40
+JP: シャア＝アズナブル{END}
+KO: 샤아 아즈나블{END}
+
+[S01DB53]  N05#41
+JP: ジェリド＝メサ{END}
+KO: 제리드 메사{END}
+
+[S01DB5B]  N05#42
+JP: カクリコン＝カクーラー{END}
+KO: 카크리콘 카쿨라{END}
+
+[S01DB67]  N05#43
+JP: ライラ＝ミラ＝ライラ{END}
+KO: 라일라 미라 라일라{END}
+
+[S01DB72]  N05#44
+JP: フォウ＝ムラサメ{END}
+KO: 포우 무라사메{END}
+
+[S01DB7B]  N05#45
+JP: ロザミア＝バダム{END}
+KO: 로자미아 바담{END}
+
+[S01DB84]  N05#46
+JP: ザシュフォード＝ヴァルハレビア{END}
+KO: 잣슈포드{END}
+
+[S01DB94]  N05#47
+JP: ブラン＝ブルターク{END}
+KO: 브란 브루탁{END}
+
+[S01DB9E]  N05#48
+JP: サラ＝ザビアロフ{END}
+KO: 사라 자비아로프{END}
+
+[S01DBA7]  N05#49
+JP: マウアー＝ファラオ{END}
+KO: 마우아 파라오{END}
+
+[S01DBB1]  N05#4A
+JP: ランシャオ{END}
+KO: 란샤오{END}
+
+[S01DBB7]  N05#4B
+JP: ヤザン＝ゲーブル{END}
+KO: 야잔 게블{END}
+
+[S01DBC0]  N05#4C
+JP: キャラ＝スーン{END}
+KO: 캬라 순{END}
+
+[S01DBC8]  N05#4D
+JP: ラカン＝ダカラン{END}
+KO: 라칸 다카란{END}
+
+[S01DBD1]  N05#4E
+JP: ハマーン＝カーン{END}
+KO: 하만 칸{END}
+
+[S01DBDA]  N05#4F
+JP: エルピー＝プル{END}
+KO: 엘피 플{END}
+
+[S01DBE2]  N05#50
+JP: マシュマー＝セロ{END}
+KO: 마슈마 세로{END}
+
+[S01DBEB]  N05#51
+JP: ゴットン＝ゴー{END}
+KO: 고튼 고{END}
+
+[S01DBF3]  N05#52
+JP: プルツー{END}
+KO: 플투{END}
+
+[S01DBF8]  N05#53
+JP: ミオ＝サスガ{END}
+KO: 미오 사스가{END}
+
+[S01DBFF]  N05#54
+JP: テュッティ＝ノールバック{END}
+KO: 튜티 놀박{END}
+
+[S01DC0C]  N05#55
+JP: ホワン＝ヤンロン{END}
+KO: 황 얀론{END}
+
+[S01DC15]  N05#56
+JP: カークス＝ヴァルハレビア{END}
+KO: 카크스{END}
+
+[S01DC22]  N05#57
+JP: フェイルロード＝ビルセイア{END}
+KO: 페일로드{END}
+
+[S01DC30]  N05#58
+JP: モニカ＝ビルセイア{END}
+KO: 모니카 빌세이아{END}
+
+[S01DC3A]  N05#59
+JP: セニア＝ビルセイア{END}
+KO: 세니아 빌세이아{END}
+
+[S01DC44]  N05#5A
+JP: テリウス＝ビルセイア{END}
+KO: 테리우스{END}
+
+[S01DC4F]  N05#5B
+JP: プレシア＝ゼノサキス{END}
+KO: 프레시아{END}
+
+[S01DC5A]  N05#5C
+JP: ルオゾール＝ロイエル{END}
+KO: 루오졸 로이엘{END}
+
+[S01DC65]  N05#5D
+JP: イブン＝クラスール{END}
+KO: 이븐 크라술{END}
+
+[S01DC6F]  N05#5E
+JP: ギュネイ＝ガス{END}
+KO: 귀네이 가스{END}
+
+[S01DC77]  N05#5F
+JP: クリスチーナ＝マッケンジー{END}
+KO: 크리스티나{END}
+
+[S01DC85]  N05#60
+JP: バーナード＝ワイズマン{END}
+KO: 버나드 와이즈먼{END}
+
+[S01DC91]  N05#61
+JP: シロ{END}
+KO: 시로{END}
+
+[S01DC94]  N05#62
+JP: クロ{END}
+KO: 쿠로{END}
+
+[S01DC97]  N05#63
+JP: フレキ{END}
+KO: 프레키{END}
+
+[S01DC9B]  N05#64
+JP: ゲリ{END}
+KO: 게리{END}
+
+[S01DC9E]  N05#65
+JP: ハサウェイ＝ノア{END}
+KO: 하사웨이 노아{END}
+
+[S01DCA7]  N05#66
+JP: ケーラ＝スゥ{END}
+KO: 케라 스{END}
+
+[S01DCAE]  N05#67
+JP: クェス＝パラヤ{END}
+KO: 퀘스 파라야{END}
+
+[S01DCB6]  N05#68
+JP: チェーン＝アギ{END}
+KO: 체인 아기{END}
+
+[S01DCBE]  N05#69
+JP: ナナイ＝ミゲル{END}
+KO: 나나이 미겔{END}
+
+[S01DCC6]  N05#6A
+JP: レズン＝シュナイダー{END}
+KO: 레즌 슈나이더{END}
+
+[S01DCD1]  N05#6B
+JP: ナセル＝ザンボス{END}
+KO: 나셀 잔보스{END}
+
+[S01DCDA]  N05#6C
+JP: ロドニー＝ジェスハ{END}
+KO: 로드니 제스하{END}
+
+[S01DCE4]  N05#6D
+JP: ケビン＝オールト{END}
+KO: 케빈 올트{END}
+
+[S01DCED]  N05#6E
+JP: ラシル＝ノボス{END}
+KO: 라실 노보스{END}
+
+[S01DCF5]  N05#6F
+JP: ザレス＝クワイアー{END}
+KO: 자레스 콰이어{END}
+
+[S01DCFF]  N05#70
+JP: リッジ＝グラスノフ{END}
+KO: 릿지 그라스노프{END}
+
+[S01DD09]  N05#71
+JP: ベルトーチカ＝イルマ{END}
+KO: 벨토치카 이르마{END}
+
+[S01DD14]  N05#72
+JP: シュタイナー＝ハーディ{END}
+KO: 슈타이너 하디{END}
+
+[S01DD20]  N05#73
+JP: リィナ＝アーシタ{END}
+KO: 리나 아시타{END}
+
+[S01DD29]  N05#74
+JP: ラテル＝アクロス{END}
+KO: 라텔 아크로스{END}
+
+[S01DD32]  N05#75
+JP: ニナ＝パープルトン{END}
+KO: 니나 퍼플턴{END}
+
+[S01DD3C]  N05#76
+JP: アナウンサー{END}
+KO: 아나운서{END}
+
+[S01DD43]  N05#77
+JP: コウ＝ウラキ{END}
+KO: 코우 우라키{END}
+
+[S01DD4A]  N05#78
+JP: アナベル＝ガトー{END}
+KO: 아나벨 가토{END}
+
+[S01DD53]  N05#79
+JP: 牧場ひかる{END}
+KO: 마키바 히카루{END}
+
+[S01DD5B]  N05#7A
+JP: デューク＝フリード{END}
+KO: 듀크 프리드{END}
+
+[S01DD65]  N05#7B
+JP: マリア＝フリード{END}
+KO: 마리아 프리드{END}
+
+[S01DD6E]  N05#7C
+JP: あしゅら男爵{END}
+KO: 아수라 남작{END}
+
+[S01DD77]  N05#7D
+JP: ブロッケン伯爵{END}
+KO: 브로켄 백작{END}
+
+[S01DD81]  N05#7E
+JP: リューネ＝ゾルダーク{END}
+KO: 류네 졸다크{END}
+
+[S01DD8C]  N05#7F
+JP: マサキ＝アンドー{END}
+KO: 마사키 안도{END}
+
+[S01DD95]  N05#80
+JP: シュウ＝シラカワ{END}
+KO: 슈우 시라카와{END}
+
+[S01DD9E]  N05#81
+JP: アハマド＝ハムディ{END}
+KO: 아하마드 함디{END}
+
+[S01DDA8]  N05#82
+JP: ゲンナジー＝コズイレフ{END}
+KO: 겐나지 코즈이레프{END}
+
+[S01DDB4]  N05#83
+JP: シーマ＝ガラハウ{END}
+KO: 시마 가라하우{END}
+
+[S01DDBD]  N05#84
+JP: キリカ{END}
+KO: 키리카{END}
+
+[S01DDC1]  N05#85
+JP: ハロ{END}
+KO: 하로{END}
+
+[S01DDC4]  N05#86
+JP: DC兵士{END}
+KO: DC병사{END}
+
+[S01DDCB]  N05#87 N05#94 N05#9D
+JP: シュテドニアス軍兵士{END}
+KO: 슈테드니아스군 병사{END}
+
+[S01DDD9]  N05#88 N05#9E
+JP: カークス軍兵士{END}
+KO: 카크스군 병사{END}
+
+[S01DDE4]  N05#89 N05#9F
+JP: フェイル軍兵士{END}
+KO: 페일군 병사{END}
+
+[S01DDEF]  N05#8A
+JP: バゴニア軍兵士{END}
+KO: 바고니아군 병사{END}
+
+[S01DDFA]  N05#8B
+JP: {END}
+KO: 
+
+[S01DDFB]  N05#8C
+JP: 人工知能{END}
+KO: 인공지능{END}
+
+[S01DE04]  N05#8D
+JP: 人工知能改{END}
+KO: 인공지능 개{END}
+
+[S01DE0F]  N05#8E
+JP: ゴドル＝ノーランド{END}
+KO: 고돌 놀랜드{END}
+
+[S01DE19]  N05#8F
+JP: サフィーネ＝ヴォルクルス{END}
+KO: 사피네 볼크루스{END}
+
+[S01DE26]  N05#90
+JP: チカ{END}
+KO: 치카{END}
+
+[S01DE29]  N05#91
+JP: ザボド＝ラクシュミア{END}
+KO: 자보드 락슈미아{END}
+
+[S01DE34]  N05#92
+JP: ディック＝シャイエール{END}
+KO: 딕 샤이에르{END}
+
+[S01DE40]  N05#93
+JP: レオ＝ギボン{END}
+KO: 레오 기본{END}
+
+[S01DE47]  N05#95
+JP: エリス＝ラディウス{END}
+KO: 에리스 라디우스{END}
+
+[S01DE51]  N05#96
+JP: リシェル＝グレノール{END}
+KO: 리셸 그레놀{END}
+
+[S01DE5C]  N05#97
+JP: ミラ＝ライオネス{END}
+KO: 미라 라이오네스{END}
+
+[S01DE65]  N05#98
+JP: ルザック州軍兵士A{END}
+KO: 루자크주군 병사A{END}
+
+[S01DE73]  N05#99
+JP: ルザック州軍兵士B{END}
+KO: 루자크주군 병사B{END}
+
+[S01DE81]  N05#9A
+JP: レスリー＝ラシッド{END}
+KO: 레슬리 라시드{END}
+
+[S01DE8B]  N05#9B N05#9C
+JP: ヴォルクルス{END}
+KO: 볼크루스{END}
+
+[S01DE92]  N05#A0
+JP: シュテドニアス軍大尉{END}
+KO: 슈테드니아스군 대위{END}
+
+[S01DEA0]  N05#A1
+JP: {END}
+KO: 
+
+[S01DEA1]  N05#A2
+JP: {END}
+KO: 
+
+[S01DEA2]  N05#A3
+JP: {END}
+KO: 
+
+[S01DEA3]  N05#A4
+JP: {END}
+KO: 
+
+[S01DEA4]  N05#A5
+JP: {END}
+KO: 
+
+[S01DEA5]  N05#A6
+JP: {END}
+KO: 
+
+[S01DEA6]  N05#A7
+JP: {END}
+KO: 
+
+[S01DEA7]  N05#A8
+JP: {END}
+KO: 
+
+[S01DEA8]  N05#A9
+JP: {END}
+KO: 
+
+[S01DEA9]  N05#AA
+JP: {END}
+KO: 
+
+[S01DEAA]  N05#AB
+JP: {END}
+KO: 
+
+[S01DEAB]  N05#AC
+JP: {END}
+KO: 
+
+[S01DEAC]  N05#AD
+JP: {END}
+KO: 
+
+[S01DEAD]  N05#AE
+JP: {END}
+KO: 
+
+[S01DEAE]  N05#AF
+JP: ーーーーーーーーーーーー{END}
+KO: 

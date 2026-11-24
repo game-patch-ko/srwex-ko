@@ -1,0 +1,459 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (dlg1A)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S094FEF] -> S094FF7  D1A#00 D1A#01 D1A#02 D1A#03
+JP: {name:01}{rand:S0952AB,S095365}
+KO: {name:01}{rand:S0952AB,S095365}
+
+[S094FF7] -> S094FFF  D1A#04
+JP: {name:01}{rand:S095296,S0952B4}
+KO: {name:01}{rand:S095296,S0952B4}
+
+[S094FFF] -> S095007  D1A#05
+JP: {name:01}{rand:S0952BD,S0952CA}
+KO: {name:01}{rand:S0952BD,S0952CA}
+
+[S095007] -> S09500F  D1A#06
+JP: {name:01}{rand:S0952AB,S09534E}
+KO: {name:01}{rand:S0952AB,S09534E}
+
+[S09500F] -> S095017  D1A#07 D1A#08 D1A#09 D1A#0A
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S095017] -> S09501F  D1A#0D
+JP: {name:01}{rand:S09537A,S09536E}
+KO: {name:01}{rand:S09537A,S09536E}
+
+[S09501F] -> S095027  D1A#0E
+JP: {name:01}{rand:S095315,S0952E2}
+KO: {name:01}{rand:S095315,S0952E2}
+
+[S095027] -> S09502F  D1A#0F
+JP: {name:01}{rand:S0952E2,S0952EF}
+KO: {name:01}{rand:S0952E2,S0952EF}
+
+[S09502F] -> S095037  D1A#10 D1A#11 D1A#15 D1A#16
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S095037] -> S09503F  D1A#12 D1A#13 D1A#14 D1A#18
+JP: {name:01}{rand:S0952DA,S0952DA}
+KO: {name:01}{rand:S0952DA,S0952DA}
+
+[S09503F] -> S095047  D1A#1E D1A#97
+JP: {name:01}{rand:S0952DA,S0952DA}
+KO: {name:01}{rand:S0952DA,S0952DA}
+
+[S095047] -> S09504F  D1A#1F
+JP: {name:01}{rand:S0952DA,S0952DA}
+KO: {name:01}{rand:S0952DA,S0952DA}
+
+[S09504F] -> S095057  D1A#20
+JP: {name:01}{rand:S0952DA,S0952DA}
+KO: {name:01}{rand:S0952DA,S0952DA}
+
+[S095057] -> S09505F  D1A#21 D1A#40
+JP: {name:01}{rand:S095359,S095389}
+KO: {name:01}{rand:S095359,S095389}
+
+[S09505F] -> S095067  D1A#22
+JP: {name:01}{rand:S0952AB,S095325}
+KO: {name:01}{rand:S0952AB,S095325}
+
+[S095067] -> S09506F  D1A#23
+JP: {name:01}{rand:S095325,S0952CA}
+KO: {name:01}{rand:S095325,S0952CA}
+
+[S09506F] -> S095077  D1A#24
+JP: {name:01}{rand:S0952DA,S09539F}
+KO: {name:01}{rand:S0952DA,S09539F}
+
+[S095077] -> S09507F  D1A#25
+JP: {name:01}{rand:S095303,S095333}
+KO: {name:01}{rand:S095303,S095333}
+
+[S09507F] -> S095087  D1A#26
+JP: {name:01}{rand:S095325,S095296}
+KO: {name:01}{rand:S095325,S095296}
+
+[S095087] -> S09508F  D1A#27
+JP: {name:01}{rand:S09534E,S0953AA}
+KO: {name:01}{rand:S09534E,S0953AA}
+
+[S09508F] -> S095097  D1A#28
+JP: {name:01}{rand:S0953BA,S0952DA}
+KO: {name:01}{rand:S0953BA,S0952DA}
+
+[S095097] -> S09509F  D1A#29 D1A#2A D1A#2B D1A#2C
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S09509F] -> S0950A7  D1A#2E
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S0950A7] -> S0950AF  D1A#2F
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S0950AF] -> S0950B7  D1A#30 D1A#31 D1A#32 D1A#33
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S0950B7] -> S0950BF  D1A#38 D1A#39
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S0950BF] -> S0950C7  D1A#3A
+JP: {name:01}{rand:S0952B4,S09534E}
+KO: {name:01}{rand:S0952B4,S09534E}
+
+[S0950C7] -> S0950CF  D1A#3B
+JP: {name:01}{rand:S09530B,S09530B}
+KO: {name:01}{rand:S09530B,S09530B}
+
+[S0950CF] -> S0950D7  D1A#3C D1A#3D D1A#3E
+JP: {name:01}{rand:S0952EF,S0952EF}
+KO: {name:01}{rand:S0952EF,S0952EF}
+
+[S0950D7] -> S0950DF  D1A#3F
+JP: {name:01}{rand:S095359,S0952E2}
+KO: {name:01}{rand:S095359,S0952E2}
+
+[S0950DF] -> S0950E7  D1A#41
+JP: {name:01}{rand:S095296,S0952BD}
+KO: {name:01}{rand:S095296,S0952BD}
+
+[S0950E7] -> S0950EF  D1A#42
+JP: {name:01}{rand:S0952B4,S09534E}
+KO: {name:01}{rand:S0952B4,S09534E}
+
+[S0950EF] -> S0950F7  D1A#43
+JP: {name:01}{rand:S0952EF,S095325}
+KO: {name:01}{rand:S0952EF,S095325}
+
+[S0950F7] -> S0950FF  D1A#44
+JP: {name:01}{rand:S095325,S09539F}
+KO: {name:01}{rand:S095325,S09539F}
+
+[S0950FF] -> S095107  D1A#45
+JP: {name:01}{rand:S095333,S095325}
+KO: {name:01}{rand:S095333,S095325}
+
+[S095107] -> S09510F  D1A#46
+JP: {name:01}{rand:S095325,S095303}
+KO: {name:01}{rand:S095325,S095303}
+
+[S09510F] -> S095117  D1A#47
+JP: {name:01}{rand:S0952AB,S0952B4}
+KO: {name:01}{rand:S0952AB,S0952B4}
+
+[S095117] -> S09511F  D1A#48
+JP: {name:01}{rand:S0952DA,S09539F}
+KO: {name:01}{rand:S0952DA,S09539F}
+
+[S09511F] -> S095127  D1A#49
+JP: {name:01}{rand:S095396,S0952EF}
+KO: {name:01}{rand:S095396,S0952EF}
+
+[S095127] -> S09512F  D1A#4A D1A#4B
+JP: {name:01}{rand:S095315,S095296}
+KO: {name:01}{rand:S095315,S095296}
+
+[S09512F] -> S095137  D1A#4C
+JP: {name:01}{rand:S09534E,S095315}
+KO: {name:01}{rand:S09534E,S095315}
+
+[S095137] -> S09513F  D1A#4D
+JP: {name:01}{rand:S095315,S095359}
+KO: {name:01}{rand:S095315,S095359}
+
+[S09513F] -> S095147  D1A#4E
+JP: {name:01}{rand:S095315,S095396}
+KO: {name:01}{rand:S095315,S095396}
+
+[S095147] -> S09514F  D1A#4F
+JP: {name:01}{rand:S09539F,S095325}
+KO: {name:01}{rand:S09539F,S095325}
+
+[S09514F] -> S095157  D1A#50
+JP: {name:01}{rand:S0952F9,S095359}
+KO: {name:01}{rand:S0952F9,S095359}
+
+[S095157] -> S09515F  D1A#51
+JP: {name:01}{rand:S095303,S0953AA}
+KO: {name:01}{rand:S095303,S0953AA}
+
+[S09515F] -> S095167  D1A#52
+JP: {name:01}{rand:S095315,S095296}
+KO: {name:01}{rand:S095315,S095296}
+
+[S095167] -> S09516F  D1A#53 D1A#54 D1A#55
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S09516F] -> S095177  D1A#56
+JP: {name:01}{rand:S095287,S0952E2}
+KO: {name:01}{rand:S095287,S0952E2}
+
+[S095177] -> S09517F  D1A#57
+JP: {name:01}{rand:S095389,S09536E}
+KO: {name:01}{rand:S095389,S09536E}
+
+[S09517F] -> S095187  D1A#58
+JP: {name:01}{rand:S09539F,S0953CB}
+KO: {name:01}{rand:S09539F,S0953CB}
+
+[S095187] -> S09518F  D1A#59
+JP: {name:01}{rand:S0953D4,S0952DA}
+KO: {name:01}{rand:S0953D4,S0952DA}
+
+[S09518F] -> S095197  D1A#5A
+JP: {name:01}{rand:S09539F,S095365}
+KO: {name:01}{rand:S09539F,S095365}
+
+[S095197] -> S09519F  D1A#5B
+JP: {name:01}{rand:S0953D4,S0953CB}
+KO: {name:01}{rand:S0953D4,S0953CB}
+
+[S09519F] -> S0951A7  D1A#5C
+JP: {name:01}{rand:S09536E,S095340}
+KO: {name:01}{rand:S09536E,S095340}
+
+[S0951A7] -> S0951AF  D1A#5D D1A#5E
+JP: {name:01}{rand:S0952AB,S0952B4}
+KO: {name:01}{rand:S0952AB,S0952B4}
+
+[S0951AF] -> S0951B7  D1A#5F
+JP: {name:01}{rand:S0953CB,S09539F}
+KO: {name:01}{rand:S0953CB,S09539F}
+
+[S0951B7] -> S0951BF  D1A#60
+JP: {name:01}{rand:S095325,S0952BD}
+KO: {name:01}{rand:S095325,S0952BD}
+
+[S0951BF] -> S0951C7  D1A#61 D1A#62 D1A#63 D1A#64
+JP: {name:01}{rand:S0952CA,S095333}
+KO: {name:01}{rand:S0952CA,S095333}
+
+[S0951C7] -> S0951CF  D1A#66 D1A#95
+JP: {name:01}{rand:S0952AB,S095296}
+KO: {name:01}{rand:S0952AB,S095296}
+
+[S0951CF] -> S0951D7  D1A#67
+JP: {name:01}{rand:S0952DA,S09539F}
+KO: {name:01}{rand:S0952DA,S09539F}
+
+[S0951D7] -> S0951DF  D1A#68 D1A#69
+JP: {name:01}{rand:S0952DA,S0952DA}
+KO: {name:01}{rand:S0952DA,S0952DA}
+
+[S0951DF] -> S0951E7  D1A#6A
+JP: {name:01}{rand:S095296,S095333}
+KO: {name:01}{rand:S095296,S095333}
+
+[S0951E7] -> S0951EF  D1A#6B
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S0951EF] -> S0951F7  D1A#6C
+JP: {name:01}{rand:S0952AB,S0952B4}
+KO: {name:01}{rand:S0952AB,S0952B4}
+
+[S0951F7] -> S0951FF  D1A#6D
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S0951FF] -> S095207  D1A#6E D1A#6F
+JP: {name:01}{rand:S0952AB,S0952B4}
+KO: {name:01}{rand:S0952AB,S0952B4}
+
+[S095207] -> S09520F  D1A#70
+JP: {name:01}{rand:S0952AB,S0952B4}
+KO: {name:01}{rand:S0952AB,S0952B4}
+
+[S09520F] -> S095217  D1A#71 D1A#72
+JP: {name:01}{rand:S0952EF,S095315}
+KO: {name:01}{rand:S0952EF,S095315}
+
+[S095217] -> S09521F  D1A#73
+JP: {name:01}{rand:S0953CB,S0952DA}
+KO: {name:01}{rand:S0953CB,S0952DA}
+
+[S09521F] -> S095227  D1A#74
+JP: {name:01}{rand:S0952AB,S095359}
+KO: {name:01}{rand:S0952AB,S095359}
+
+[S095227] -> S09522F  D1A#75 D1A#76 D1A#77
+JP: {name:01}{rand:S0952AB,S095396}
+KO: {name:01}{rand:S0952AB,S095396}
+
+[S09522F] -> S095237  D1A#78
+JP: {name:01}{rand:S095389,S09530B}
+KO: {name:01}{rand:S095389,S09530B}
+
+[S095237] -> S09523F  D1A#79 D1A#7A D1A#7B
+JP: {name:01}{rand:S0952DA,S0952AB}
+KO: {name:01}{rand:S0952DA,S0952AB}
+
+[S09523F] -> S095247  D1A#7C D1A#7D
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S095247] -> S09524F  D1A#7E D1A#7F
+JP: {name:01}{rand:S0952AB,S0952AB}
+KO: {name:01}{rand:S0952AB,S0952AB}
+
+[S09524F] -> S095257  D1A#80
+JP: {name:01}{rand:S095340,S09536E}
+KO: {name:01}{rand:S095340,S09536E}
+
+[S095257] -> S09525F  D1A#81
+JP: {name:01}{rand:S0952F9,S0952EF}
+KO: {name:01}{rand:S0952F9,S0952EF}
+
+[S09525F] -> S095267  D1A#82
+JP: {name:01}{rand:S0952AB,S09530B}
+KO: {name:01}{rand:S0952AB,S09530B}
+
+[S095267] -> S09526F  D1A#83
+JP: {name:01}{rand:S095325,S095333}
+KO: {name:01}{rand:S095325,S095333}
+
+[S09526F] -> S095277  D1A#84
+JP: {name:01}{rand:S0952DA,S0952DA}
+KO: {name:01}{rand:S0952DA,S0952DA}
+
+[S095277] -> S09527F  D1A#85 D1A#86 D1A#87 D1A#88
+JP: {name:01}{rand:S0952AB,S095389}
+KO: {name:01}{rand:S0952AB,S095389}
+
+[S09527F] -> S095287  D1A#8B D1A#8C D1A#8D D1A#8E
+JP: {name:01}{rand:S0953EA,S0953F9}
+KO: {name:01}{rand:S0953EA,S0953F9}
+
+[S095287]  D1A#A1 D1A#A2 D1A#A3 D1A#A4
+JP: 「ビームなど効かぬわ!!」{END}
+KO: 「빔 따위 통하지 않는다!!」{END}
+
+[S095296]
+JP: 「ビームは効かないって{n}いってる!!」{END}
+KO: 「빔은 안 통한다고{n}했잖아!!」{END}
+
+[S0952AB]
+JP: 「ムダだっ!!」{END}
+KO: 「소용없다!!」{END}
+
+[S0952B4]
+JP: 「効くかよ!」{END}
+KO: 「통할까 보냐!」{END}
+
+[S0952BD]
+JP: 「効かないってよ!!」{END}
+KO: 「안 통한다니까!!」{END}
+
+[S0952CA]
+JP: 「ムダだっていってんじゃん!」{END}
+KO: 「소용없다고 했잖아!」{END}
+
+[S0952DA]
+JP: 「ムダよ!!」{END}
+KO: 「소용없어!!」{END}
+
+[S0952E2]
+JP: 「フン、効かんわ!!」{END}
+KO: 「흥, 안 통한다!!」{END}
+
+[S0952EF]
+JP: 「ムダなことを!」{END}
+KO: 「쓸데없는 짓을!」{END}
+
+[S0952F9]
+JP: 「ムダなのだよ!」{END}
+KO: 「소용없단 말이다!」{END}
+
+[S095303]
+JP: 「ムダだよ!」{END}
+KO: 「헛수고야!」{END}
+
+[S09530B]
+JP: 「効かぬわっ!」{END}
+KO: 「통하지 않는다!」{END}
+
+[S095315]
+JP: 「フン! ムダなことをっ!!」{END}
+KO: 「흥! 쓸데없는 짓을!!」{END}
+
+[S095325]
+JP: 「ムダだっていったろ!!」{END}
+KO: 「소용없다고 했지!!」{END}
+
+[S095333]
+JP: 「効かないんだよ!!」{END}
+KO: 「안 통한다고!!」{END}
+
+[S095340]
+JP: 「フフフ・・・ムダですよ」{END}
+KO: 「후후후・・・소용없습니다」{END}
+
+[S09534E]
+JP: 「ムダなんだよ!!」{END}
+KO: 「소용없다니까!!」{END}
+
+[S095359]
+JP: 「フッ 効かんよ!」{END}
+KO: 「훗, 안 통하지!」{END}
+
+[S095365]
+JP: 「させるかっ!」{END}
+KO: 「그렇게는 안 된다!」{END}
+
+[S09536E]
+JP: 「ムダなことを・・・」{END}
+KO: 「쓸데없는 짓을・・・」{END}
+
+[S09537A]
+JP: 「しょせん、ムダなのだよ!」{END}
+KO: 「결국 소용없는 거다!」{END}
+
+[S095389]
+JP: 「ビームなど効かん!」{END}
+KO: 「빔 따위 안 통한다!」{END}
+
+[S095396]
+JP: 「ビームなど!」{END}
+KO: 「빔 따위!」{END}
+
+[S09539F]
+JP: 「ビームなんて!!」{END}
+KO: 「빔 같은 거!!」{END}
+
+[S0953AA]
+JP: 「ビームなんてヘでもねえぜ!」{END}
+KO: 「빔 따윈 아무렇지도 않다고!」{END}
+
+[S0953BA]
+JP: 「ビーム攻撃なんてムダよ!」{END}
+KO: 「빔 공격은 소용없어!」{END}
+
+[S0953CB]
+JP: 「ムダなのよ!」{END}
+KO: 「소용없거든!」{END}
+
+[S0953D4]
+JP: 「ムダだって言ってんの、わかんないかな」{END}
+KO: 「소용없다니까, 모르겠니」{END}
+
+[S0953EA]
+JP: 「だめよ、ビームなんかじゃ」{END}
+KO: 「안 돼, 빔으로는」{END}
+
+[S0953F9]
+JP: 「あーら、残念ね」{END}
+KO: 「어머, 아쉽네」{END}

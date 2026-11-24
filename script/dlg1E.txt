@@ -1,0 +1,127 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (dlg1E)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S06568B]  D1E#00 D1E#01 D1E#02 D1E#03
+JP: {name:05}「{name:05}、{name:06}発進する!!」{END}
+KO: {name:05}「{name:05}, {name:06}{n}발진한다!!」{END}
+
+[S06569D]  D1E#67 D1E#73
+JP: {name:05}「{name:05}、{name:06}いきまーす!!」{END}
+KO: {name:05}「{name:05}, {name:06}{n}갑니다ー!!」{END}
+
+[S0656AE]  D1E#04 D1E#06 D1E#1D
+JP: {name:05}「{name:05}、{name:06}でます!!」{END}
+KO: {name:05}「{name:05}, {name:06}{n}나갑니다!!」{END}
+
+[S0656BD]  D1E#05 D1E#21 D1E#41
+JP: {name:05}「{name:04}、{name:06}でる!!」{END}
+KO: {name:05}「{name:04}, {name:06}{n}나간다!!」{END}
+
+[S0656CB]  D1E#07 D1E#08 D1E#09
+JP: {name:05}「{name:06}発進!!」{END}
+KO: {name:05}「{name:06} 발진!!」{END}
+
+[S0656D8]  D1E#0A D1E#0B D1E#0C
+JP: {name:05}「{name:06}ゴー!!」{END}
+KO: {name:05}「{name:06} 고!!」{END}
+
+[S0656E3]  D1E#0D D1E#0E D1E#0F D1E#51
+JP: {name:05}「{name:06}発進する!!」{END}
+KO: {name:05}「{name:06} 발진한다!!」{END}
+
+[S0656F2]  D1E#10 D1E#11 D1E#17 D1E#5E
+JP: {name:05}「{name:04}、{name:06}発進する!!」{END}
+KO: {name:05}「{name:04}, {name:06}{n}발진한다!!」{END}
+
+[S065704]  D1E#12 D1E#13 D1E#14 D1E#18
+JP: {name:05}「{name:04}、{name:06}でます!!」{END}
+KO: {name:05}「{name:04}, {name:06}{n}나갑니다!!」{END}
+
+[S065713]  D1E#60
+JP: {name:05}「{name:04}、{n}{name:06}でます!!」{END}
+KO: {name:05}「{name:04},{n}{name:06} 나갑니다!!」{END}
+
+[S065723]  D1E#15 D1E#4B
+JP: {name:05}「{name:06}いくぜ!!」{END}
+KO: {name:05}「{name:06} 간다!!」{END}
+
+[S06572F]  D1E#16 D1E#31 D1E#6A
+JP: {name:05}「{name:06}でるぞ!!」{END}
+KO: {name:05}「{name:06} 출격이다!!」{END}
+
+[S06573B]  D1E#1A D1E#30 D1E#45 D1E#4D
+JP: {name:05}「{name:06}でる!!」{END}
+KO: {name:05}「{name:06} 나간다!!」{END}
+
+[S065746]  D1E#1B D1E#1C D1E#22
+JP: {name:05}「{name:05}、{name:06}発進します!!」{END}
+KO: {name:05}「{name:05}, {name:06}{n}발진합니다!!」{END}
+
+[S065759]  D1E#28 D1E#54 D1E#58 D1E#59
+JP: {name:05}「{name:06}発進します!!」{END}
+KO: {name:05}「{name:06} 발진합니다!!」{END}
+
+[S065769]  D1E#23 D1E#25 D1E#26 D1E#27
+JP: {name:05}「発進する!!」{END}
+KO: {name:05}「발진한다!!」{END}
+
+[S065776]  D1E#32
+JP: {name:05}「どきな! {name:04}、{n}{name:06}いくよ!!」{END}
+KO: {name:05}「비켜! {name:04},{n}{name:06} 간다!!」{END}
+
+[S06578B]  D1E#33 D1E#34 D1E#38 D1E#39
+JP: {name:05}「でます!!」{END}
+KO: {name:05}「나갑니다!!」{END}
+
+[S065795]  D1E#3B D1E#3C D1E#3D D1E#3E
+JP: {name:05}「でるぞ!!」{END}
+KO: {name:05}「나간다!!」{END}
+
+[S06579F]  D1E#1E D1E#1F D1E#40 D1E#44
+JP: {name:05}「{name:04}、{n}{name:06}発進します!!」{END}
+KO: {name:05}「{name:04},{n}{name:06} 발진합니다!!」{END}
+
+[S0657B3]  D1E#4A D1E#4C D1E#83
+JP: {name:05}「{name:04}、{name:06}いくよ!!」{END}
+KO: {name:05}「{name:04}, {name:06}{n}갈게!!」{END}
+
+[S0657C2]  D1E#42 D1E#43 D1E#4E D1E#6B
+JP: {name:05}「{name:06}発進する!!」{END}
+KO: {name:05}「{name:06} 발진한다!!」{END}
+
+[S0657D1]  D1E#4F D1E#52 D1E#66
+JP: {name:05}「{name:04}、{name:06}いくよ!!」{END}
+KO: {name:05}「{name:04}, {name:06}{n}갈게!!」{END}
+
+[S0657E0]  D1E#53
+JP: {name:05}「{name:06}でまーす!!」{END}
+KO: {name:05}「{name:06} 나갑니다ー!!」{END}
+
+[S0657ED]  D1E#5C D1E#69
+JP: {name:05}「発進する」{END}
+KO: {name:05}「발진한다」{END}
+
+[S0657F8]  D1E#5D D1E#61 D1E#62 D1E#63
+JP: {name:05}「{name:06}いくよ!!」{END}
+KO: {name:05}「{name:06} 갈게!!」{END}
+
+[S065804]  D1E#7F
+JP: {name:05}「{name:06}いくぜ!!」{END}
+KO: {name:05}「{name:06} 간다!!」{END}
+
+[S065810]  D1E#80
+JP: {name:05}「{name:06}発進する」{END}
+KO: {name:05}「{name:06} 발진한다」{END}
+
+[S06581D]  D1E#81 D1E#82
+JP: {name:05}「{name:06}でるぞ!!」{END}
+KO: {name:05}「{name:06} 출격이다!!」{END}
+
+[S065829]  D1E#84 D1E#85 D1E#8C D1E#8D
+JP: {name:05}「{name:06}でます!」{END}
+KO: {name:05}「{name:06} 나갑니다!」{END}

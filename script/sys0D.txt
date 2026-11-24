@@ -1,0 +1,355 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (sys0D)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S01EF74]  N0D#00
+JP: {F6:83}%アップ{END}
+KO: {F6:83}%증가{END}
+
+[S01EF7B]  N0D#01
+JP: {F6:83}%ダウン{END}
+KO: {F6:83}%감소{END}
+
+[S01EF82]  N0D#02
+JP:  変化なし{END}
+KO:  변화 없음{END}
+
+[S01EF8A]  N0D#03
+JP: {$F2FF}{$F2FF}{$F2FF}陸{END}
+KO: 　　　육{END}
+
+[S01EF93]  N0D#04
+JP: {$F2FF}{$F2FF}空陸{END}
+KO: 　　공육{END}
+
+[S01EF9C]  N0D#05
+JP: {$F2FF}{$F2FF}{$F2FF}空{END}
+KO: 　　　공{END}
+
+[S01EFA5]  N0D#06
+JP: {$F2FF}{$F2FF}水陸{END}
+KO: 　　수육{END}
+
+[S01EFAE]  N0D#07
+JP: {$F2FF}水陸空{END}
+KO: 　수육공{END}
+
+[S01EFB7]  N0D#08
+JP: {$F2FF}陸地中{END}
+KO: 　육지중{END}
+
+[S01EFC0]  N0D#09
+JP: 空陸地中{END}
+KO: 공륙지중{END}
+
+[S01EFC9]  N0D#0A
+JP: {$F2FF}{$F2FF}{$F2FF}水{END}
+KO: 　　　수{END}
+
+[S01EFD2]  N0D#0B N0D#0C N0D#0D N0D#0E
+JP: {END}
+KO: 
+
+[S01EFD3]  N0D#13 N0D#14
+JP: トレーニング{END}
+KO: 트레이닝{END}
+
+[S01EFDA]  N0D#15
+JP: マサキの章{END}
+KO: 마사키 편{END}
+
+[S01EFE1]  N0D#16
+JP: リューネの章{END}
+KO: 류네 편{END}
+
+[S01EFE9]  N0D#17
+JP: シュウの章{END}
+KO: 슈우 편{END}
+
+[S01EFF0]  N0D#18
+JP: {END}
+KO: 
+
+[S01EFF1]  N0D#19
+JP: Iフィールド{END}
+KO: I필드{END}
+
+[S01EFF8]  N0D#1A
+JP: オーラバリア{END}
+KO: 오라배리어{END}
+
+[S01EFFF]  N0D#1B
+JP: ビーム吸収{END}
+KO: 빔흡수{END}
+
+[S01F007]  N0D#1C
+JP: 分身{END}
+KO: 분신{END}
+
+[S01F00C]  N0D#1D
+JP: {END}
+KO: 
+
+[S01F013]  N0D#1E
+JP: 変形{END}
+KO: 변형{END}
+
+[S01F018]  N0D#1F
+JP: {END}
+KO: 
+
+[S01F019]  N0D#20
+JP: モビルスーツ系{END}
+KO: 모빌슈트계{END}
+
+[S01F022]  N0D#21
+JP: マジンガー系{END}
+KO: 마징가계{END}
+
+[S01F02A]  N0D#22
+JP: ゲッターロボ{END}
+KO: 게타로보{END}
+
+[S01F031]  N0D#23
+JP: オーラバトラー系{END}
+KO: 오라배틀러계{END}
+
+[S01F03B]  N0D#24
+JP: ゴーショーグン{END}
+KO: 고쇼군{END}
+
+[S01F043]  N0D#25
+JP: 魔装機系{END}
+KO: 마장기계{END}
+
+[S01F04C]  N0D#26
+JP: オリジナル魔装機系{END}
+KO: 오리지널마장기계{END}
+
+[S01F05A]  N0D#27
+JP: 無差別{END}
+KO: 무차별{END}
+
+[S01F061]  N0D#28 N0D#29 N0D#2A N0D#2B
+JP: {END}
+KO: 
+
+[S01F062]  N0D#2C
+JP: ー{END}
+KO: 
+
+[S01F064]  N0D#2D
+JP: C{END}
+KO: 
+
+[S01F066]  N0D#2E
+JP: B{END}
+KO: 
+
+[S01F068]  N0D#2F
+JP: A{END}
+KO: 
+
+[S01F06A]  N0D#30
+JP: 根性{END}
+KO: 근성{END}
+
+[S01F06F]  N0D#31
+JP: ド根性{END}
+KO: 투혼{END}
+
+[S01F075]  N0D#32
+JP: 補給{END}
+KO: 보급{END}
+
+[S01F07A]  N0D#33
+JP: 友情{END}
+KO: 우정{END}
+
+[S01F07F]  N0D#34
+JP: 信頼{END}
+KO: 신뢰{END}
+
+[S01F084]  N0D#35
+JP: 愛{END}
+KO: 사랑{END}
+
+[S01F087]  N0D#36
+JP: 激怒{END}
+KO: 격노{END}
+
+[S01F08C]  N0D#37
+JP: 気合{END}
+KO: 기합{END}
+
+[S01F091]  N0D#38
+JP: 加速{END}
+KO: 가속{END}
+
+[S01F096]  N0D#39
+JP: 熱血{END}
+KO: 열혈{END}
+
+[S01F09B]  N0D#3A
+JP: 必中{END}
+KO: 필중{END}
+
+[S01F0A0]  N0D#3B
+JP: ひらめき{END}
+KO: 직감{END}
+
+[S01F0A5]  N0D#3C
+JP: 幸運{END}
+KO: 행운{END}
+
+[S01F0AA]  N0D#3D
+JP: 覚醒{END}
+KO: 각성{END}
+
+[S01F0AF]  N0D#3E
+JP: 威圧{END}
+KO: 위압{END}
+
+[S01F0B4]  N0D#3F
+JP: 手加減{END}
+KO: 봐주기{END}
+
+[S01F0BB]  N0D#40 N0D#41
+JP: 移動{END}
+KO: 이동{END}
+
+[S01F0C0]  N0D#42
+JP: 攻撃{END}
+KO: 공격{END}
+
+[S01F0C5]  N0D#43
+JP: 発進{END}
+KO: 발진{END}
+
+[S01F0CA]  N0D#44
+JP: 変形{END}
+KO: 변형{END}
+
+[S01F0CF]  N0D#45
+JP: 精神{END}
+KO: 정신{END}
+
+[S01F0D4]  N0D#46
+JP: 説得{END}
+KO: 설득{END}
+
+[S01F0D9]  N0D#47
+JP: 地中{END}
+KO: 지중{END}
+
+[S01F0DE]  N0D#48
+JP: 水中{END}
+KO: 수중{END}
+
+[S01F0E3]  N0D#49
+JP: 地上{END}
+KO: 지상{END}
+
+[S01F0E8]  N0D#4A
+JP: 空中{END}
+KO: 공중{END}
+
+[S01F0ED]  N0D#4B
+JP: 能力{END}
+KO: 능력{END}
+
+[S01F0F2]  N0D#4C
+JP: 待機{END}
+KO: 대기{END}
+
+[S01F0F7]  N0D#4D N0D#4E N0D#4F
+JP: {END}
+KO: 
+
+[S01F0F8]  N0D#50 N0D#51
+JP: 反撃不能{END}
+KO: 반격 불능{END}
+
+[S01F101]  N0D#52
+JP: 防御{END}
+KO: 방어{END}
+
+[S01F106]  N0D#53
+JP: 回避{END}
+KO: 회피{END}
+
+[S01F10B]  N0D#54 N0D#55 N0D#56 N0D#57
+JP: {END}
+KO: 
+
+[S01F10C]  N0D#58
+JP: 必ず反撃!{END}
+KO: 반드시 반격!{END}
+
+[S01F115]  N0D#59
+JP: 積極的に!{END}
+KO: 적극적!{END}
+
+[S01F11E]  N0D#5A
+JP: 効率よく!{END}
+KO: 효율적!{END}
+
+[S01F126]  N0D#5B
+JP: 反撃するな!{END}
+KO: 반격금지!{END}
+
+[S01F12F]  N0D#5C
+JP: OFF{END}
+KO: 
+
+[S01F133]  N0D#5D
+JP: ON {END}
+KO: 
+
+[S01F137]  N0D#5E
+JP: モノラル{END}
+KO: 모노{END}
+
+[S01F13C]  N0D#5F
+JP: ステレオ{END}
+KO: 스테레오{END}
+
+[S01F141]  N0D#60
+JP: パッド{END}
+KO: 패드{END}
+
+[S01F145]  N0D#61
+JP: マウス{END}
+KO: 마우스{END}
+
+[S01F149]  N0D#62
+JP: なし{END}
+KO: 없음{END}
+
+[S01F14C]  N0D#63
+JP: A {END}
+KO: 
+
+[S01F14F]  N0D#64
+JP: B {END}
+KO: 
+
+[S01F152]  N0D#65
+JP: X {END}
+KO: 
+
+[S01F155]  N0D#66
+JP: Y {END}
+KO: 
+
+[S01F158]  N0D#67
+JP: L {END}
+KO: 
+
+[S01F15B]  N0D#68
+JP: R {END}
+KO: 

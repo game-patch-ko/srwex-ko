@@ -1,0 +1,903 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (sys07_sys08)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S01E5BF]  N07#00 N07#FF N08#00
+JP: {END}
+KO: 
+
+[S01E5C0]  N07#01 N07#02 N07#03 N07#04
+JP: ビームサーベル{END}
+KO: 빔사벨{END}
+
+[S01E5C8]  N07#05
+JP: ビームナギナタ{END}
+KO: 빔나기나타{END}
+
+[S01E5D0]  N07#06
+JP: メガビームサーベル{END}
+KO: 메가빔사벨{END}
+
+[S01E5DA]  N07#07 N07#09
+JP: ビームトマホーク{END}
+KO: 빔토마호크{END}
+
+[S01E5E3]  N07#08
+JP: ビームソードアックス{END}
+KO: 빔소드액스{END}
+
+[S01E5EE]  N07#0A
+JP: ヒートサーベル{END}
+KO: 히트사벨{END}
+
+[S01E5F6]  N07#0B
+JP: ヒートホーク{END}
+KO: 히트호크{END}
+
+[S01E5FD]  N07#0C
+JP: ダブルトマホーク{END}
+KO: 더블토마호크{END}
+
+[S01E606]  N07#0D
+JP: マジンガーブレード{END}
+KO: 마징가블레이드{END}
+
+[S01E610]  N07#0E N07#0F
+JP: グランワームソード{END}
+KO: 그란웜소드{END}
+
+[S01E61A]  N07#10 N07#11 N07#12
+JP: ディバインアーム{END}
+KO: 디바인암{END}
+
+[S01E623]  N07#13
+JP: ダブルハーケン{END}
+KO: 더블하켄{END}
+
+[S01E62B]  N07#14 N08#07 N08#0D
+JP: ディスカッター{END}
+KO: 디스커터{END}
+
+[S01E633]  N07#15
+JP: オーラビームソード{END}
+KO: 오라빔소드{END}
+
+[S01E63D]  N07#16
+JP: ソード{END}
+KO: 소드{END}
+
+[S01E641]  N07#17
+JP: プラグマティックブレード{END}
+KO: 프래그머틱블레이드{END}
+
+[S01E64E]  N07#18
+JP: メガビームサーベル{END}
+KO: 메가빔사벨{END}
+
+[S01E658]  N07#19 N07#F2
+JP: ハイメガビームサーベル{END}
+KO: 하이메가빔사벨{END}
+
+[S01E664]  N07#1A N08#3E
+JP: プラズマソード{END}
+KO: 플라즈마소드{END}
+
+[S01E66C]  N07#1B N07#1C N07#1D N07#1E
+JP: オーラソード{END}
+KO: 오라소드{END}
+
+[S01E673]  N07#23
+JP: ワイヤークロー{END}
+KO: 와이어클로{END}
+
+[S01E67B]  N07#24
+JP: チェーンアタック{END}
+KO: 체인어택{END}
+
+[S01E684]  N07#25
+JP: 海へび{END}
+KO: 바다뱀{END}
+
+[S01E689]  N07#26
+JP: アイアンクロー{END}
+KO: 아이언클로{END}
+
+[S01E691]  N07#27 N07#DD N07#DE
+JP: クロー{END}
+KO: 클로{END}
+
+[S01E695]  N07#28
+JP: ロケットハンマー{END}
+KO: 로켓해머{END}
+
+[S01E69E]  N07#29
+JP: ドリル{END}
+KO: 드릴{END}
+
+[S01E6A2]  N07#2A
+JP: ドリルアーム{END}
+KO: 드릴암{END}
+
+[S01E6A9]  N07#2B
+JP: 格闘{END}
+KO: 격투{END}
+
+[S01E6AE]  N07#2C
+JP: スペースバズーカ{END}
+KO: 스페이스바주카{END}
+
+[S01E6B7]  N07#2D
+JP: ゴースティック{END}
+KO: 고스틱{END}
+
+[S01E6C0]  N07#2E
+JP: しっぽ{END}
+KO: 꼬리{END}
+
+[S01E6C4]  N07#2F
+JP: つの{END}
+KO: 뿔{END}
+
+[S01E6C7]  N07#30
+JP: 体当たり{END}
+KO: 몸통박치기{END}
+
+[S01E6CE]  N07#31 N08#2E
+JP: パンチ{END}
+KO: 펀치{END}
+
+[S01E6D2]  N07#32
+JP: スピア{END}
+KO: 스피어{END}
+
+[S01E6D6]  N07#33 N07#34
+JP: むち{END}
+KO: 채찍{END}
+
+[S01E6D9]  N07#35
+JP: かま{END}
+KO: 낫{END}
+
+[S01E6DC]  N07#36
+JP: 60mm機関砲{END}
+KO: 60mm기관포{END}
+
+[S01E6E7]  N07#37 N07#38 N07#3B
+JP: バルカン{END}
+KO: 발칸{END}
+
+[S01E6EC]  N07#39
+JP: ダブルバルカン{END}
+KO: 더블발칸{END}
+
+[S01E6F4]  N07#3A N08#1D N08#21 N08#24
+JP: オーラバルカン{END}
+KO: 오라발칸{END}
+
+[S01E6FC]  N07#3C
+JP: スピンカッター{END}
+KO: 스핀커터{END}
+
+[S01E704]  N07#3D
+JP: ダブルトマホークブーメラン{END}
+KO: 더블토마호크부메랑{END}
+
+[S01E713]  N07#3E
+JP: グレートブーメラン{END}
+KO: 그레이트부메랑{END}
+
+[S01E71E]  N07#3F N07#40
+JP: ショルダーブーメラン{END}
+KO: 숄더부메랑{END}
+
+[S01E72A]  N07#41
+JP: スピンソーサー{END}
+KO: 스핀소서{END}
+
+[S01E732]  N07#42
+JP: ドリルソーサー{END}
+KO: 드릴소서{END}
+
+[S01E73A]  N07#43
+JP: ハイドボンブ{END}
+KO: 하이드봄{END}
+
+[S01E741]  N07#44
+JP: トライブレード{END}
+KO: 트라이블레이드{END}
+
+[S01E74A]  N07#45
+JP: 爆弾{END}
+KO: 폭탄{END}
+
+[S01E74F]  N07#46
+JP: アイアンカッター{END}
+KO: 아이언커터{END}
+
+[S01E758]  N07#47
+JP: スクランダーカッター{END}
+KO: 스크랜더커터{END}
+
+[S01E763]  N07#48
+JP: スクランブルカッター{END}
+KO: 스크램블커터{END}
+
+[S01E76E]  N07#49 N07#4A N07#4B N07#F7
+JP: ビームライフル{END}
+KO: 빔라이플{END}
+
+[S01E777]  N07#4C N08#06
+JP: ダブルビームライフル{END}
+KO: 더블빔라이플{END}
+
+[S01E783]  N07#4D N07#4E
+JP: ビームガン{END}
+KO: 빔건{END}
+
+[S01E78A]  N07#4F
+JP: アームビームガン{END}
+KO: 암빔건{END}
+
+[S01E794]  N07#50
+JP: ハンドビーム{END}
+KO: 핸드빔{END}
+
+[S01E79D]  N07#51
+JP: ヴェスバー{END}
+KO: 베스바{END}
+
+[S01E7A3]  N07#52
+JP: ハンドキャノン{END}
+KO: 핸드캐논{END}
+
+[S01E7AB]  N07#53
+JP: ビームショットライフル{END}
+KO: 빔샷라이플{END}
+
+[S01E7B8]  N07#54
+JP: ビームアサルトライフル{END}
+KO: 빔어설트라이플{END}
+
+[S01E7C5]  N07#55
+JP: ビームカノン{END}
+KO: 빔캐논{END}
+
+[S01E7CD]  N07#56
+JP: オーラソードライフル{END}
+KO: 오라소드라이플{END}
+
+[S01E7D8]  N07#57
+JP: ライガーミサイル{END}
+KO: 라이거미사일{END}
+
+[S01E7E1]  N07#58
+JP: ストロングミサイル{END}
+KO: 스트롱미사일{END}
+
+[S01E7EB]  N07#59
+JP: ミサイルパンチ{END}
+KO: 미사일펀치{END}
+
+[S01E7F3]  N07#5A
+JP: ドリルミサイル{END}
+KO: 드릴미사일{END}
+
+[S01E7FB]  N07#5B
+JP: ネーブルミサイル{END}
+KO: 네이블미사일{END}
+
+[S01E804]  N07#5C
+JP: 対艦ミサイル{END}
+KO: 대함미사일{END}
+
+[S01E80D]  N07#5D
+JP: ダイアナンミサイル{END}
+KO: 다이아난미사일{END}
+
+[S01E817]  N07#5E N07#5F N07#60
+JP: ミサイル{END}
+KO: 미사일{END}
+
+[S01E81C]  N07#61
+JP: ミニミサイル{END}
+KO: 미니미사일{END}
+
+[S01E823]  N07#62
+JP: ロケット弾{END}
+KO: 로켓탄{END}
+
+[S01E82A]  N07#63
+JP: ショットランサー{END}
+KO: 샷랜서{END}
+
+[S01E833]  N07#64
+JP: 誘導ミサイル{END}
+KO: 유도미사일{END}
+
+[S01E83C]  N07#65 N08#0E
+JP: カロリックミサイル{END}
+KO: 칼로릭미사일{END}
+
+[S01E846]  N07#66
+JP: メガマシンキャノン{END}
+KO: 메가머신캐논{END}
+
+[S01E851]  N07#67
+JP: グレネードランチャー{END}
+KO: 그레네이드런처{END}
+
+[S01E85C]  N07#68
+JP: メガランチャー{END}
+KO: 메가런처{END}
+
+[S01E865]  N07#69
+JP: ハイメガランチャー{END}
+KO: 하이메가런처{END}
+
+[S01E870]  N07#6A
+JP: ハイパービームキャノン{END}
+KO: 하이퍼빔캐논{END}
+
+[S01E87D]  N07#6B
+JP: νハイパーバズーカ{END}
+KO: ν하이퍼바주카{END}
+
+[S01E887]  N07#6C
+JP: ハイパーバズーカ{END}
+KO: 하이퍼바주카{END}
+
+[S01E890]  N07#6D N07#6F
+JP: ジャイアントバズ{END}
+KO: 자이언트바즈{END}
+
+[S01E899]  N07#6E
+JP: ザクバズーカ{END}
+KO: 자쿠바주카{END}
+
+[S01E8A0]  N07#70
+JP: スツルムファウスト{END}
+KO: 슈투름파우스트{END}
+
+[S01E8AA]  N07#71
+JP: パンツァーファウスト{END}
+KO: 판처파우스트{END}
+
+[S01E8B5]  N07#72
+JP: 無反動バズーカ{END}
+KO: 무반동바주카{END}
+
+[S01E8C0]  N07#73
+JP: 120mmマシンガン{END}
+KO: 120mm머신건{END}
+
+[S01E8CB]  N07#74
+JP: ヘビーマシンガン{END}
+KO: 헤비머신건{END}
+
+[S01E8D4]  N07#75
+JP: ビームマシンガン{END}
+KO: 빔머신건{END}
+
+[S01E8DE]  N07#76
+JP: ショットガン{END}
+KO: 샷건{END}
+
+[S01E8E5]  N07#77
+JP: メガ・ガトリングガン{END}
+KO: 메가・개틀링건{END}
+
+[S01E8F0]  N07#78
+JP: ライフル{END}
+KO: 라이플{END}
+
+[S01E8F5]  N07#79
+JP: ピストル{END}
+KO: 피스톨{END}
+
+[S01E8FB]  N07#7A
+JP: ガトリングガン{END}
+KO: 개틀링건{END}
+
+[S01E903]  N07#7B
+JP: ガッシュ{END}
+KO: 갓슈{END}
+
+[S01E908]  N07#7C
+JP: ゴーフラッシャー{END}
+KO: 고플래셔{END}
+
+[S01E911]  N07#7D
+JP: ゴーサーベル{END}
+KO: 고사벨{END}
+
+[S01E918]  N07#7E N07#7F
+JP: スクリュークラッシャーパンチ{END}
+KO: 스크루크래셔펀치{END}
+
+[S01E927]  N07#80
+JP: ドリルプレッシャーパンチ{END}
+KO: 드릴프레셔펀치{END}
+
+[S01E934]  N07#81
+JP: ゲッタービーム{END}
+KO: 게타빔{END}
+
+[S01E93D]  N07#82
+JP: 光子力ビーム{END}
+KO: 광자력빔{END}
+
+[S01E948]  N07#84
+JP: スカーレットビーム{END}
+KO: 스칼렛빔{END}
+
+[S01E953]  N07#85
+JP: ハンドビーム{END}
+KO: 핸드빔{END}
+
+[S01E95C]  N07#86
+JP: レーザービーム{END}
+KO: 레이저빔{END}
+
+[S01E964]  N07#87
+JP: ソニックブラスト{END}
+KO: 소닉블래스트{END}
+
+[S01E96D]  N07#88
+JP: ショックビーム{END}
+KO: 쇼크빔{END}
+
+[S01E975]  N07#89 N07#B3
+JP: レーザー{END}
+KO: 레이저{END}
+
+[S01E97A]  N07#8A
+JP: ハイパーソニックウェーブ{END}
+KO: 하이퍼소닉웨이브{END}
+
+[S01E987]  N07#8B
+JP: 中性子ビーム{END}
+KO: 중성자빔{END}
+
+[S01E992]  N07#8C
+JP: パルスレーザー{END}
+KO: 펄스레이저{END}
+
+[S01E99A]  N07#8D
+JP: 破壊光線{END}
+KO: 파괴광선{END}
+
+[S01E9A3]  N07#8E
+JP: 磁力光線{END}
+KO: 자력광선{END}
+
+[S01E9AC]  N07#8F
+JP: 縮退砲{END}
+KO: 축퇴포{END}
+
+[S01E9B3]  N07#90
+JP: 振動波{END}
+KO: 진동파{END}
+
+[S01E9BA]  N07#91
+JP: 拡散ビーム砲{END}
+KO: 확산빔포{END}
+
+[S01E9C6]  N07#92
+JP: メガ拡散ビーム砲{END}
+KO: 메가확산빔포{END}
+
+[S01E9D4]  N07#93
+JP: 拡散メガ粒子砲{END}
+KO: 확산메가입자포{END}
+
+[S01E9E3]  N07#94 N08#19
+JP: メガ粒子砲{END}
+KO: 메가입자포{END}
+
+[S01E9ED]  N07#95
+JP: ビーム砲{END}
+KO: 빔포{END}
+
+[S01E9F4]  N07#96
+JP: ブレストバーン{END}
+KO: 브레스트번{END}
+
+[S01E9FC]  N07#97
+JP: ブレストファイヤー{END}
+KO: 브레스트파이어{END}
+
+[S01EA06]  N07#98
+JP: 反重力ストーム{END}
+KO: 반중력스톰{END}
+
+[S01EA11]  N07#99
+JP: シャインスパーク{END}
+KO: 샤인스파크{END}
+
+[S01EA1A]  N07#9A N07#9B N07#9C N07#9D
+JP: ハイファミリア{END}
+KO: 하이패밀리어{END}
+
+[S01EA22]  N07#9E N07#A1 N07#F5 N07#F6
+JP: ファンネル{END}
+KO: 판넬{END}
+
+[S01EA28]  N07#9F
+JP: レフレクタービット{END}
+KO: 리플렉터비트{END}
+
+[S01EA32]  N07#A0
+JP: インコム{END}
+KO: 인컴{END}
+
+[S01EA37]  N07#A2
+JP: ゲッターサイクロン{END}
+KO: 게타사이클론{END}
+
+[S01EA41]  N07#A3
+JP: ルストハリケーン{END}
+KO: 루스트허리케인{END}
+
+[S01EA4A]  N07#A4
+JP: グレートタイフーン{END}
+KO: 그레이트타이푼{END}
+
+[S01EA54]  N07#A5
+JP: ハリケーン{END}
+KO: 허리케인{END}
+
+[S01EA5A]  N07#A6
+JP: サンダーブレーク{END}
+KO: 선더브레이크{END}
+
+[S01EA63]  N07#A7 N07#A8
+JP: スペースサンダー{END}
+KO: 스페이스선더{END}
+
+[S01EA6C]  N07#A9
+JP: オーラショット{END}
+KO: 오라샷{END}
+
+[S01EA74]  N07#AA N08#1F N08#23 N08#26
+JP: オーラキャノン{END}
+KO: 오라캐논{END}
+
+[S01EA7C]  N07#AB N08#08 N08#10 N08#14
+JP: ビームキャノン{END}
+KO: 빔캐논{END}
+
+[S01EA85]  N07#AC
+JP: 火炎{END}
+KO: 화염{END}
+
+[S01EA8A]  N07#AD
+JP: マグマ弾{END}
+KO: 마그마탄{END}
+
+[S01EA90]  N07#AE
+JP: 大砲{END}
+KO: 대포{END}
+
+[S01EA95]  N07#AF
+JP: 爆弾{END}
+KO: 폭탄{END}
+
+[S01EA9A]  N07#B0
+JP: フレイ・ボム{END}
+KO: 프레이・봄{END}
+
+[S01EAA2]  N07#B1
+JP: 修理装置{END}
+KO: 수리장치{END}
+
+[S01EAAB]  N07#B2
+JP: メルトシャワー{END}
+KO: 멜트샤워{END}
+
+[S01EAB4]  N07#B4
+JP: アカシックバスター{END}
+KO: 아카식버스터{END}
+
+[S01EABE]  N07#B5 N07#B9
+JP: ワームスマッシャー{END}
+KO: 웜스매셔{END}
+
+[S01EAC8]  N07#B6 N07#BB
+JP: ブラックホールクラスター{END}
+KO: 블랙홀클러스터{END}
+
+[S01EAD5]  N07#B7
+JP: コスモノヴァ{END}
+KO: 코스모노바{END}
+
+[S01EADC]  N07#B8 N07#BF
+JP: クロスマッシャー{END}
+KO: 크로스매셔{END}
+
+[S01EAE5]  N07#BA N07#D5
+JP: グラビトロンカノン{END}
+KO: 그라비트론캐논{END}
+
+[S01EAF1]  N07#BC N07#C8
+JP: ビッグバンウェーブ{END}
+KO: 빅뱅웨이브{END}
+
+[S01EAFD]  N07#BD N07#C0
+JP: メガグラビトンウェーブ{END}
+KO: 메가그라비톤웨이브{END}
+
+[S01EB09]  N07#BE
+JP: グラビトンウェーブ{END}
+KO: 그라비톤웨이브{END}
+
+[S01EB13]  N07#C1
+JP: ライトニングアロー{END}
+KO: 라이트닝애로{END}
+
+[S01EB1E]  N07#C2
+JP: かぎづめ{END}
+KO: 갈고리발톱{END}
+
+[S01EB23]  N07#C3
+JP: ナックルパート{END}
+KO: 너클파트{END}
+
+[S01EB2B]  N07#C4
+JP: 岩つぶて{END}
+KO: 돌팔매{END}
+
+[S01EB31]  N07#C5
+JP: おたけび{END}
+KO: 포효{END}
+
+[S01EB37]  N07#C6
+JP: アストラルバスター{END}
+KO: 아스트랄버스터{END}
+
+[S01EB41]  N07#C7
+JP: ファントムビュレット{END}
+KO: 팬텀불릿{END}
+
+[S01EB4C]  N07#C9
+JP: メガスマッシャー{END}
+KO: 메가스매셔{END}
+
+[S01EB55]  N07#CA
+JP: メガバスター砲{END}
+KO: 메가버스터포{END}
+
+[S01EB61]  N07#CB N07#CC N08#11 N08#29
+JP: リニアレールガン{END}
+KO: 리니어레일건{END}
+
+[S01EB6A]  N07#CD
+JP: ハンドソルド{END}
+KO: 핸드솔드{END}
+
+[S01EB71]  N07#CE
+JP: ハイメガキャノン{END}
+KO: 하이메가캐논{END}
+
+[S01EB7D]  N07#CF
+JP: メガバズーカランチャー{END}
+KO: 메가바주카런처{END}
+
+[S01EB8C]  N07#D0
+JP: レゾナンスクエイク{END}
+KO: 레조넌스퀘이크{END}
+
+[S01EB99]  N07#D1
+JP: メギドフレイム{END}
+KO: 메기도플레임{END}
+
+[S01EBA4]  N07#D2
+JP: ケルヴィンブリザード{END}
+KO: 켈빈블리자드{END}
+
+[S01EBB2]  N07#D3
+JP: サイコブラスター{END}
+KO: 사이코블래스터{END}
+
+[S01EBBE]  N07#D4
+JP: サイフラッシュ{END}
+KO: 사이플래시{END}
+
+[S01EBC9]  N07#D6
+JP: オーラノヴァ砲{END}
+KO: 오라노바포{END}
+
+[S01EBD4]  N07#D7
+JP: {END}
+KO: 
+
+[S01EBD5]  N07#D8
+JP: フィン・ファンネル{END}
+KO: 핀・판넬{END}
+
+[S01EBDF]  N07#D9
+JP: グングニール{END}
+KO: 궁그닐{END}
+
+[S01EBE6]  N07#DA N08#1B
+JP: 対空ミサイル{END}
+KO: 대공미사일{END}
+
+[S01EBEF]  N07#DB
+JP: メガフラッシャー{END}
+KO: 메가플래셔{END}
+
+[S01EBF8]  N07#DC
+JP: プラズマリーダー{END}
+KO: 플라즈마리더{END}
+
+[S01EC03]  N07#DF
+JP: 大型ミサイル{END}
+KO: 대형미사일{END}
+
+[S01EC0C]  N07#E0 N07#E1 N08#1E N08#22
+JP: フレイボム{END}
+KO: 프레이봄{END}
+
+[S01EC13]  N07#E2
+JP: ハイドロプレッシャー{END}
+KO: 하이드로프레셔{END}
+
+[S01EC1E]  N07#E3
+JP: カロリックスマッシュ{END}
+KO: 칼로릭스매시{END}
+
+[S01EC29]  N07#E4
+JP: 超振動拳{END}
+KO: 초진동권{END}
+
+[S01EC32]  N07#E5
+JP: ブラッシュブレード{END}
+KO: 브러시블레이드{END}
+
+[S01EC3C]  N07#E6 N08#0F
+JP: 対空レーザー{END}
+KO: 대공레이저{END}
+
+[S01EC45]  N07#E7 N08#17
+JP: 多弾頭ミサイル{END}
+KO: 다탄두미사일{END}
+
+[S01EC50]  N07#E8
+JP: パルスクラスター{END}
+KO: 펄스클러스터{END}
+
+[S01EC59]  N07#E9
+JP: バスターキャノン{END}
+KO: 버스터캐논{END}
+
+[S01EC62]  N07#EA
+JP: トルネードアタック{END}
+KO: 토네이도어택{END}
+
+[S01EC6C]  N07#EB
+JP: ライトニングプレッシャー{END}
+KO: 라이트닝프레셔{END}
+
+[S01EC79]  N07#EC
+JP: グランドナパーム{END}
+KO: 그랜드네이팜{END}
+
+[S01EC82]  N07#ED
+JP: ウェーブパニッシャー{END}
+KO: 웨이브퍼니셔{END}
+
+[S01EC8D]  N07#EE
+JP: リッパークロー{END}
+KO: 리퍼클로{END}
+
+[S01EC95]  N07#EF
+JP: イビル・アイ{END}
+KO: 이블・아이{END}
+
+[S01EC9C]  N07#F0
+JP: ブラス・ナックル{END}
+KO: 브라스・너클{END}
+
+[S01ECA6]  N07#F1
+JP: ジャベリン{END}
+KO: 재블린{END}
+
+[S01ECAC]  N07#F3
+JP: パルスバルカン{END}
+KO: 펄스발칸{END}
+
+[S01ECB4]  N07#F4
+JP: サンダーボール{END}
+KO: 썬더볼{END}
+
+[S01ECBC]  N08#01
+JP: ガトリングキャノン{END}
+KO: 개틀링캐논{END}
+
+[S01ECC6]  N08#02
+JP: ドライシュトラール{END}
+KO: 드라이슈트랄{END}
+
+[S01ECD0]  N08#03
+JP: エレメントフュージョン{END}
+KO: 엘리먼트퓨전{END}
+
+[S01ECDC]  N08#04
+JP: ローズカッター{END}
+KO: 로즈커터{END}
+
+[S01ECE4]  N08#05 N08#12
+JP: メガビームキャノン{END}
+KO: 메가빔캐논{END}
+
+[S01ECEF]  N08#09
+JP: 高射砲{END}
+KO: 고사포{END}
+
+[S01ECF6]  N08#0A
+JP: フラッシャービーム{END}
+KO: 플래셔빔{END}
+
+[S01ED01]  N08#0B
+JP: 500ミリキャノン{END}
+KO: 500밀리캐논{END}
+
+[S01ED0B]  N08#0C
+JP: 60ミリ機銃{END}
+KO: 60밀리기총{END}
+
+[S01ED14]  N08#13
+JP: ホーミングミサイル{END}
+KO: 호밍미사일{END}
+
+[S01ED1E]  N07#83 N08#15
+JP: ギガソートキャノン{END}
+KO: 기가소트캐논{END}
+
+[S01ED28]  N08#18
+JP: ハイパーレールガン{END}
+KO: 하이퍼레일건{END}
+
+[S01ED32]  N08#1A
+JP: 対地ミサイル{END}
+KO: 대지미사일{END}
+
+[S01ED3B]  N08#1C
+JP: フレイムカッター{END}
+KO: 플레임커터{END}
+
+[S01ED44]  N08#20
+JP: ハイパーキャノン{END}
+KO: 하이퍼캐논{END}
+
+[S01ED4D]  N08#27 N08#30 N08#31 N08#32
+JP: オーラ斬り{END}
+KO: 오라베기{END}
+
+[S01ED54]  N08#28 N08#37 N08#38 N08#39
+JP: ハイパーオーラ斬り{END}
+KO: 하이퍼오라베기{END}
+
+[S01ED5F]  N08#2A
+JP: ボロットパンチ{END}
+KO: 보롯펀치{END}
+
+[S01ED67]  N08#2B
+JP: スーパーボロットパンチ{END}
+KO: 슈퍼보롯펀치{END}
+
+[S01ED73]  N08#2C
+JP: スペシャルDXボロットパンチ{END}
+KO: 스페셜DX보롯펀치{END}
+
+[S01ED82]  N08#2D
+JP: 補給装置{END}
+KO: 보급장치{END}
+
+[S01ED8B]  N08#2F
+JP: スピンアタック{END}
+KO: 스핀어택{END}

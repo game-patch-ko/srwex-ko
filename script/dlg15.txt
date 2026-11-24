@@ -1,0 +1,695 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (dlg15)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S0917DA] -> S0917E4  D15#00 D15#01 D15#02 D15#03
+JP: {name:01}{rand:S091C0D,S091C18,S091C24}
+KO: {name:01}{rand:S091C0D,S091C18,S091C24}
+
+[S0917E4] -> S0917EE  D15#04
+JP: {name:01}{rand:S091C0D,S091C18,S091C24}
+KO: {name:01}{rand:S091C0D,S091C18,S091C24}
+
+[S0917EE] -> S0917F8  D15#05
+JP: {name:01}{rand:S091C32,S091C41,S091C0D}
+KO: {name:01}{rand:S091C32,S091C41,S091C0D}
+
+[S0917F8] -> S091802  D15#06
+JP: {name:01}{rand:S091C56,S091C62,S091C0D}
+KO: {name:01}{rand:S091C56,S091C62,S091C0D}
+
+[S091802] -> S09180C  D15#07
+JP: {name:01}{rand:S091C41,S091C6C,S091C78}
+KO: {name:01}{rand:S091C41,S091C6C,S091C78}
+
+[S09180C] -> S091816  D15#08
+JP: {name:01}{rand:S091C56,S091C24,S091C85}
+KO: {name:01}{rand:S091C56,S091C24,S091C85}
+
+[S091816] -> S091820  D15#09
+JP: {name:01}{rand:S091C94,S091C85,S091CAD}
+KO: {name:01}{rand:S091C94,S091C85,S091CAD}
+
+[S091820] -> S09182E  D15#0A D15#0B D15#0C
+JP: {rand:S091F11,S091F26,S091F4C,S091F61,S091F70,S091F81}
+KO: 
+
+[S09182E] -> S091836  D15#0D
+JP: {name:01}{rand:S091ED0,S091CDB}
+KO: {name:01}{rand:S091ED0,S091CDB}
+
+[S091836] -> S091840  D15#0E
+JP: {name:01}{rand:S091C6C,S091DF1,S091EE6}
+KO: {name:01}{rand:S091C6C,S091DF1,S091EE6}
+
+[S091840] -> S09184A  D15#0F
+JP: {name:01}{rand:S091EA8,S091DFF,S091D52}
+KO: {name:01}{rand:S091EA8,S091DFF,S091D52}
+
+[S09184A] -> S091854  D15#10 D15#11
+JP: {name:01}{rand:S091CB6,S091C85,S091C0D}
+KO: {name:01}{rand:S091CB6,S091C85,S091C0D}
+
+[S091854] -> S09185E  D15#12
+JP: {name:01}{rand:S091CC2,S091CCD,S091CDB}
+KO: {name:01}{rand:S091CC2,S091CCD,S091CDB}
+
+[S09185E] -> S091866  D15#13
+JP: {name:01}{rand:S091CC2,S091CDB}
+KO: {name:01}{rand:S091CC2,S091CDB}
+
+[S091866] -> S09186E  D15#14
+JP: {name:01}{rand:S091CC2,S091CDB}
+KO: {name:01}{rand:S091CC2,S091CDB}
+
+[S09186E] -> S091878  D15#15
+JP: {name:01}{rand:S091CE4,S091C94,S091CAD}
+KO: {name:01}{rand:S091CE4,S091C94,S091CAD}
+
+[S091878] -> S091882  D15#16
+JP: {name:01}{rand:S091CAD,S091CF1,S091D02}
+KO: {name:01}{rand:S091CAD,S091CF1,S091D02}
+
+[S091882] -> S09188C  D15#17
+JP: {name:01}{rand:S091D0D,S091C85,S091C0D}
+KO: {name:01}{rand:S091D0D,S091C85,S091C0D}
+
+[S09188C] -> S091896  D15#18
+JP: {name:01}{rand:S091CC2,S091CDB,S091D15}
+KO: {name:01}{rand:S091CC2,S091CDB,S091D15}
+
+[S091896] -> S0918A0  D15#19
+JP: {name:01}{rand:S091CC2,S091D1D,S091D2E}
+KO: {name:01}{rand:S091CC2,S091D1D,S091D2E}
+
+[S0918A0] -> S0918AA  D15#1A
+JP: {name:01}{rand:S091CF1,S091C0D,S091D3A}
+KO: {name:01}{rand:S091CF1,S091C0D,S091D3A}
+
+[S0918AA] -> S0918B2  D15#1B D15#1C D15#1D
+JP: {name:01}{rand:S091CDB,S091D43}
+KO: {name:01}{rand:S091CDB,S091D43}
+
+[S0918B2] -> S0918BC  D15#1E
+JP: {name:01}{rand:S091D43,S091D52,S091CDB}
+KO: {name:01}{rand:S091D43,S091D52,S091CDB}
+
+[S0918BC] -> S0918C4  D15#1F D15#20
+JP: {name:01}{rand:S091D2E,S091CC2}
+KO: {name:01}{rand:S091D2E,S091CC2}
+
+[S0918C4] -> S0918CE  D15#21
+JP: {name:01}{rand:S091D5B,S091D62,S091C0D}
+KO: {name:01}{rand:S091D5B,S091D62,S091C0D}
+
+[S0918CE] -> S0918D8  D15#22
+JP: {name:01}{rand:S091D0D,S091C56,S091C32}
+KO: {name:01}{rand:S091D0D,S091C56,S091C32}
+
+[S0918D8] -> S0918E2  D15#23
+JP: {name:01}{rand:S091D6E,S091CC2,S091D80}
+KO: {name:01}{rand:S091D6E,S091CC2,S091D80}
+
+[S0918E2] -> S0918EC  D15#24
+JP: {name:01}{rand:S091D2E,S091D43,S091CC2}
+KO: {name:01}{rand:S091D2E,S091D43,S091CC2}
+
+[S0918EC] -> S0918F6  D15#25
+JP: {name:01}{rand:S091D8B,S091D9E,S091C18}
+KO: {name:01}{rand:S091D8B,S091D9E,S091C18}
+
+[S0918F6] -> S091900  D15#26
+JP: {name:01}{rand:S091C78,S091CE4,S091DB7}
+KO: {name:01}{rand:S091C78,S091CE4,S091DB7}
+
+[S091900] -> S09190A  D15#27
+JP: {name:01}{rand:S091C32,S091D8B,S091C0D}
+KO: {name:01}{rand:S091C32,S091D8B,S091C0D}
+
+[S09190A] -> S091914  D15#28
+JP: {name:01}{rand:S091CCD,S091CDB,S091D15}
+KO: {name:01}{rand:S091CCD,S091CDB,S091D15}
+
+[S091914] -> S09191E  D15#29
+JP: {name:01}{rand:S091CC2,S091D2E,S091D6E}
+KO: {name:01}{rand:S091CC2,S091D2E,S091D6E}
+
+[S09191E] -> S091928  D15#2A
+JP: {name:01}{rand:S091DCA,S091D8B,S091DDF}
+KO: {name:01}{rand:S091DCA,S091D8B,S091DDF}
+
+[S091928] -> S091932  D15#2B
+JP: {name:01}{rand:S091D52,S091C85,S091C24}
+KO: {name:01}{rand:S091D52,S091C85,S091C24}
+
+[S091932] -> S09193C  D15#2C
+JP: {name:01}{rand:S091CCD,S091CDB,S091D43}
+KO: {name:01}{rand:S091CCD,S091CDB,S091D43}
+
+[S09193C] -> S091946  D15#2D
+JP: {name:01}{rand:S091CE4,S091C78,S091DB7}
+KO: {name:01}{rand:S091CE4,S091C78,S091DB7}
+
+[S091946] -> S091950  D15#2E
+JP: {name:01}{rand:S091DF1,S091DFF,S091D52}
+KO: {name:01}{rand:S091DF1,S091DFF,S091D52}
+
+[S091950] -> S09195A  D15#2F
+JP: {name:01}{rand:S091DF1,S091C0D,S091C6C}
+KO: {name:01}{rand:S091DF1,S091C0D,S091C6C}
+
+[S09195A] -> S091964  D15#30
+JP: {name:01}{rand:S091CCD,S091D02,S091C0D}
+KO: {name:01}{rand:S091CCD,S091D02,S091C0D}
+
+[S091964] -> S09196E  D15#31
+JP: {name:01}{rand:S091D02,S091C94,S091E0E}
+KO: {name:01}{rand:S091D02,S091C94,S091E0E}
+
+[S09196E] -> S091978  D15#32
+JP: {name:01}{rand:S091CF1,S091D02,S091D3A}
+KO: {name:01}{rand:S091CF1,S091D02,S091D3A}
+
+[S091978] -> S091982  D15#33
+JP: {name:01}{rand:S091D80,S091DB7,S091DFF}
+KO: {name:01}{rand:S091D80,S091DB7,S091DFF}
+
+[S091982] -> S09198C  D15#34
+JP: {name:01}{rand:S091D02,S091DF1,S091D3A}
+KO: {name:01}{rand:S091D02,S091DF1,S091D3A}
+
+[S09198C] -> S091994  D15#35 D15#3C
+JP: {name:01}{rand:S091E14,S091D52}
+KO: {name:01}{rand:S091E14,S091D52}
+
+[S091994] -> S09199E  D15#36 D15#3D
+JP: {name:01}{rand:S091CAD,S091C6C,S091C0D}
+KO: {name:01}{rand:S091CAD,S091C6C,S091C0D}
+
+[S09199E] -> S0919A8  D15#37 D15#3E
+JP: {name:01}{rand:S091C0D,S091D02,S091DFF}
+KO: {name:01}{rand:S091C0D,S091D02,S091DFF}
+
+[S0919A8] -> S0919B0  D15#38 D15#39
+JP: {name:01}{rand:S091DFF,S091D43}
+KO: {name:01}{rand:S091DFF,S091D43}
+
+[S0919B0] -> S0919BA  D15#3A
+JP: {name:01}{rand:S091D62,S091C78,S091C0D}
+KO: {name:01}{rand:S091D62,S091C78,S091C0D}
+
+[S0919BA]  D15#3B
+JP: {name:01}{goto:S091E14}
+KO: {name:01}{goto:S091E14}
+
+[S0919BF] -> S0919C9  D15#3F
+JP: {name:01}{rand:S091E14,S091DF1,S091C0D}
+KO: {name:01}{rand:S091E14,S091DF1,S091C0D}
+
+[S0919C9] -> S0919D1  D15#40
+JP: {name:01}{rand:S091D5B,S091D62}
+KO: {name:01}{rand:S091D5B,S091D62}
+
+[S0919D1] -> S0919DB  D15#41
+JP: {name:01}{rand:S091E0E,S091D52,S091D3A}
+KO: {name:01}{rand:S091E0E,S091D52,S091D3A}
+
+[S0919DB] -> S0919E3  D15#42
+JP: {name:01}{rand:S091D52,S091C78}
+KO: {name:01}{rand:S091D52,S091C78}
+
+[S0919E3] -> S0919ED  D15#43
+JP: {name:01}{rand:S091E1F,S091D52,S091D62}
+KO: {name:01}{rand:S091E1F,S091D52,S091D62}
+
+[S0919ED] -> S0919F5  D15#44
+JP: {name:01}{rand:S091CC2,S091CDB}
+KO: {name:01}{rand:S091CC2,S091CDB}
+
+[S0919F5] -> S0919FF  D15#45
+JP: {name:01}{rand:S091CF1,S091CDB,S091C85}
+KO: {name:01}{rand:S091CF1,S091CDB,S091C85}
+
+[S0919FF] -> S091A09  D15#46
+JP: {name:01}{rand:S091C62,S091C0D,S091CCD}
+KO: {name:01}{rand:S091C62,S091C0D,S091CCD}
+
+[S091A09] -> S091A13  D15#47
+JP: {name:01}{rand:S091C85,S091CAD,S091D02}
+KO: {name:01}{rand:S091C85,S091CAD,S091D02}
+
+[S091A13] -> S091A1D  D15#48
+JP: {name:01}{rand:S091CDB,S091CCD,S091CC2}
+KO: {name:01}{rand:S091CDB,S091CCD,S091CC2}
+
+[S091A1D] -> S091A27  D15#49
+JP: {name:01}{rand:S091CC2,S091D52,S091D43}
+KO: {name:01}{rand:S091CC2,S091D52,S091D43}
+
+[S091A27] -> S091A31  D15#4A D15#4B
+JP: {name:01}{rand:S091E14,S091E0E,S091E36}
+KO: {name:01}{rand:S091E14,S091E0E,S091E36}
+
+[S091A31] -> S091A3B  D15#4C
+JP: {name:01}{rand:S091DB7,S091E0E,S091D3A}
+KO: {name:01}{rand:S091DB7,S091E0E,S091D3A}
+
+[S091A3B] -> S091A45  D15#4D
+JP: {name:01}{rand:S091CAD,S091C6C,S091D02}
+KO: {name:01}{rand:S091CAD,S091C6C,S091D02}
+
+[S091A45] -> S091A4F  D15#4E
+JP: {name:01}{rand:S091CCD,S091E36,S091D5B}
+KO: {name:01}{rand:S091CCD,S091E36,S091D5B}
+
+[S091A4F] -> S091A59  D15#4F
+JP: {name:01}{rand:S091D2E,S091CC2,S091D6E}
+KO: {name:01}{rand:S091D2E,S091CC2,S091D6E}
+
+[S091A59] -> S091A63  D15#50
+JP: {name:01}{rand:S091D62,S091E41,S091E36}
+KO: {name:01}{rand:S091D62,S091E41,S091E36}
+
+[S091A63] -> S091A6D  D15#51
+JP: {name:01}{rand:S091D8B,S091D0D,S091C56}
+KO: {name:01}{rand:S091D8B,S091D0D,S091C56}
+
+[S091A6D] -> S091A77  D15#52
+JP: {name:01}{rand:S091C0D,S091C85,S091CC2}
+KO: {name:01}{rand:S091C0D,S091C85,S091CC2}
+
+[S091A77] -> S091A81  D15#53
+JP: {name:01}{rand:S091CC2,S091D2E,S091E4E}
+KO: {name:01}{rand:S091CC2,S091D2E,S091E4E}
+
+[S091A81] -> S091A8B  D15#54
+JP: {name:01}{rand:S091CDB,S091CC2,S091D43}
+KO: {name:01}{rand:S091CDB,S091CC2,S091D43}
+
+[S091A8B] -> S091A95  D15#55
+JP: {name:01}{rand:S091CCD,S091E0E,S091D62}
+KO: {name:01}{rand:S091CCD,S091E0E,S091D62}
+
+[S091A95] -> S091A9F  D15#56
+JP: {name:01}{rand:S091CAD,S091E14,S091DF1}
+KO: {name:01}{rand:S091CAD,S091E14,S091DF1}
+
+[S091A9F] -> S091AA9  D15#57
+JP: {name:01}{rand:S091E14,S091D3A,S091C85}
+KO: {name:01}{rand:S091E14,S091D3A,S091C85}
+
+[S091AA9] -> S091AB1  D15#58
+JP: {name:01}{rand:S091CC2,S091D15}
+KO: {name:01}{rand:S091CC2,S091D15}
+
+[S091AB1] -> S091AB9  D15#59
+JP: {name:01}{rand:S091CC2,S091CDB}
+KO: {name:01}{rand:S091CC2,S091CDB}
+
+[S091AB9] -> S091AC3  D15#5A
+JP: {name:01}{rand:S091C56,S091C62,S091D80}
+KO: {name:01}{rand:S091C56,S091C62,S091D80}
+
+[S091AC3] -> S091ACD  D15#5B
+JP: {name:01}{rand:S091E4E,S091D6E,S091CC2}
+KO: {name:01}{rand:S091E4E,S091D6E,S091CC2}
+
+[S091ACD] -> S091AD5  D15#5C
+JP: {name:01}{rand:S091D3A,S091DF1}
+KO: {name:01}{rand:S091D3A,S091DF1}
+
+[S091AD5] -> S091ADF  D15#5D D15#5E
+JP: {name:01}{rand:S091CCD,S091C78,S091C0D}
+KO: {name:01}{rand:S091CCD,S091C78,S091C0D}
+
+[S091ADF] -> S091AE9  D15#5F
+JP: {name:01}{rand:S091CDB,S091CC2,S091D2E}
+KO: {name:01}{rand:S091CDB,S091CC2,S091D2E}
+
+[S091AE9] -> S091AF3  D15#60
+JP: {name:01}{rand:S091C62,S091C32,S091DB7}
+KO: {name:01}{rand:S091C62,S091C32,S091DB7}
+
+[S091AF3] -> S091AFD  D15#61 D15#62 D15#63 D15#64
+JP: {name:01}{rand:S091C18,S091CDB,S091E60}
+KO: {name:01}{rand:S091C18,S091CDB,S091E60}
+
+[S091AFD] -> S091B07  D15#66
+JP: {name:01}{rand:S091CCD,S091CDB,S091D43}
+KO: {name:01}{rand:S091CCD,S091CDB,S091D43}
+
+[S091B07] -> S091B0F  D15#67
+JP: {name:01}{rand:S091CDB,S091CC2}
+KO: {name:01}{rand:S091CDB,S091CC2}
+
+[S091B0F] -> S091B17  D15#68 D15#69
+JP: {name:01}{rand:S091D43,S091CDB}
+KO: {name:01}{rand:S091D43,S091CDB}
+
+[S091B17] -> S091B21  D15#6A
+JP: {name:01}{rand:S091D02,S091CF1,S091E1F}
+KO: {name:01}{rand:S091D02,S091CF1,S091E1F}
+
+[S091B21] -> S091B2B  D15#6B
+JP: {name:01}{rand:S091E14,S091DFF,S091DF1}
+KO: {name:01}{rand:S091E14,S091DFF,S091DF1}
+
+[S091B2B] -> S091B35  D15#6C
+JP: {name:01}{rand:S091DFF,S091C78,S091E6B}
+KO: {name:01}{rand:S091DFF,S091C78,S091E6B}
+
+[S091B35] -> S091B3F  D15#6D
+JP: {name:01}{rand:S091E0E,S091DFF,S091D52}
+KO: {name:01}{rand:S091E0E,S091DFF,S091D52}
+
+[S091B3F] -> S091B49  D15#6E D15#6F
+JP: {name:01}{rand:S091C0D,S091C0D,S091C0D}
+KO: {name:01}{rand:S091C0D,S091C0D,S091C0D}
+
+[S091B49] -> S091B53  D15#70
+JP: {name:01}{rand:S091C0D,S091C0D,S091C0D}
+KO: {name:01}{rand:S091C0D,S091C0D,S091C0D}
+
+[S091B53] -> S091B5D  D15#71 D15#72
+JP: {name:01}{rand:S091D52,S091E14,S091DFF}
+KO: {name:01}{rand:S091D52,S091E14,S091DFF}
+
+[S091B5D] -> S091B65  D15#73
+JP: {name:01}{rand:S091E77,S091CC2}
+KO: {name:01}{rand:S091E77,S091CC2}
+
+[S091B65] -> S091B6F  D15#74
+JP: {name:01}{rand:S091E14,S091D62,S091D43}
+KO: {name:01}{rand:S091E14,S091D62,S091D43}
+
+[S091B6F] -> S091B79  D15#75 D15#76 D15#77
+JP: {name:01}{rand:S091D80,S091D43,S091C0D}
+KO: {name:01}{rand:S091D80,S091D43,S091C0D}
+
+[S091B79] -> S091B83  D15#78
+JP: {name:01}{rand:S091C85,S091CAD,S091D5B}
+KO: {name:01}{rand:S091C85,S091CAD,S091D5B}
+
+[S091B83] -> S091B8B  D15#79
+JP: {name:01}{rand:S091CC2,S091E89}
+KO: {name:01}{rand:S091CC2,S091E89}
+
+[S091B8B] -> S091B95  D15#7A
+JP: {name:01}{rand:S091D52,S091C78,S091C0D}
+KO: {name:01}{rand:S091D52,S091C78,S091C0D}
+
+[S091B95] -> S091B9F  D15#7B
+JP: {name:01}{rand:S091E60,S091D15,S091CC2}
+KO: {name:01}{rand:S091E60,S091D15,S091CC2}
+
+[S091B9F] -> S091BA7  D15#7C D15#7D
+JP: {name:01}{rand:S091DF1,S091DFF}
+KO: {name:01}{rand:S091DF1,S091DFF}
+
+[S091BA7] -> S091BB1  D15#7E
+JP: {name:01}{rand:S091E0E,S091E9B,S091D52}
+KO: {name:01}{rand:S091E0E,S091E9B,S091D52}
+
+[S091BB1] -> S091BBB  D15#7F
+JP: {name:01}{rand:S091CE4,S091C78,S091C94}
+KO: {name:01}{rand:S091CE4,S091C78,S091C94}
+
+[S091BBB] -> S091BC3  D15#80
+JP: {name:01}{rand:S091D3A,S091EA8}
+KO: {name:01}{rand:S091D3A,S091EA8}
+
+[S091BC3] -> S091BCD  D15#81
+JP: {name:01}{rand:S091DFF,S091D62,S091CCD}
+KO: {name:01}{rand:S091DFF,S091D62,S091CCD}
+
+[S091BCD] -> S091BD7  D15#82
+JP: {name:01}{rand:S091E0E,S091D52,S091D43}
+KO: {name:01}{rand:S091E0E,S091D52,S091D43}
+
+[S091BD7] -> S091BE1  D15#83
+JP: {name:01}{rand:S091D3A,S091E36,S091CDB}
+KO: {name:01}{rand:S091D3A,S091E36,S091CDB}
+
+[S091BE1] -> S091BE9  D15#84
+JP: {name:01}{rand:S091CC2,S091CDB}
+KO: {name:01}{rand:S091CC2,S091CDB}
+
+[S091BE9] -> S091BF3  D15#85 D15#86 D15#87 D15#88
+JP: {name:01}{rand:S091D0D,S091C32,S091E14}
+KO: {name:01}{rand:S091D0D,S091C32,S091E14}
+
+[S091BF3] -> S091BFB  D15#8B D15#8C D15#8D
+JP: {name:01}{rand:S091EB9,S091EC5}
+KO: {name:01}{rand:S091EB9,S091EC5}
+
+[S091BFB] -> S091C03  D15#8E D15#8F
+JP: {name:01}{rand:S091EF7,S091EF7}
+KO: {name:01}{rand:S091EF7,S091EF7}
+
+[S091C03] -> S091C0D  D15#90 D15#91 D15#92 D15#93
+JP: {name:01}{rand:S091C0D,S091C0D,S091C0D}
+KO: {name:01}{rand:S091C0D,S091C0D,S091C0D}
+
+[S091C0D]
+JP: 「し、しまった!!」{END}
+KO: 「아, 아차!!」{END}
+
+[S091C18]
+JP: 「うわぁぁぁぁっ!!」{END}
+KO: 「우와아아아앗!!」{END}
+
+[S091C24]
+JP: 「うわっ! しまった!!」{END}
+KO: 「우왓! 아차!!」{END}
+
+[S091C32]
+JP: 「うわっ! やられたっ!!」{END}
+KO: 「우왓! 당했다!!」{END}
+
+[S091C41]
+JP: 「うわっちゃあ!{n}やられちまったぜ!!」{END}
+KO: 「우와짜!{n}당해 버렸다!!」{END}
+
+[S091C56]
+JP: 「うわああああっ!!」{END}
+KO: 「우와아아아앗!!」{END}
+
+[S091C62]
+JP: 「う、うわっ!?」{END}
+KO: 「우, 우왓!?」{END}
+
+[S091C6C]
+JP: 「う、うおおおっ!!」{END}
+KO: 「우, 우오오옷!!」{END}
+
+[S091C78]
+JP: 「くそっ!! だめか!」{END}
+KO: 「젠장!! 안 되나!」{END}
+
+[S091C85]
+JP: 「くっ!! ここまでか!!」{END}
+KO: 「큭!! 여기까지인가!!」{END}
+
+[S091C94]
+JP: 「ちっ!! オレもヤキが{n}まわったもんだぜ!!」{END}
+KO: 「쳇!! 나도 한물갔구만!!」{END}
+
+[S091CAD]
+JP: 「なんだと!?」{END}
+KO: 「뭐라고!?」{END}
+
+[S091CB6]
+JP: 「くっ! なむさん!」{END}
+KO: 「큭! 나무아미타불!」{END}
+
+[S091CC2]
+JP: 「きゃあああっ!!」{END}
+KO: 「꺄아아앗!!」{END}
+
+[S091CCD]
+JP: 「くっ! しまったっ!!」{END}
+KO: 「큭! 아차!!」{END}
+
+[S091CDB]
+JP: 「直撃!?」{END}
+KO: 「직격!?」{END}
+
+[S091CE4]
+JP: 「ちっ! ドジったぜ!」{END}
+KO: 「쳇! 실수했다!」{END}
+
+[S091CF1]
+JP: 「バカな!? このわたしが!?」{END}
+KO: 「말도 안 돼!? 이 내가!?」{END}
+
+[S091D02]
+JP: 「直撃だと!?」{END}
+KO: 「직격이라고!?」{END}
+
+[S091D0D]
+JP: 「うわっ!!」{END}
+KO: 「우왓!!」{END}
+
+[S091D15]
+JP: 「だめっ!!」{END}
+KO: 「안 돼!!」{END}
+
+[S091D1D]
+JP: 「きゃああっ!! ニ、ニー!!」{END}
+KO: 「꺄아앗!! 니, 니!!」{END}
+
+[S091D2E]
+JP: 「も、もうだめっ!!」{END}
+KO: 「이, 이제 안 돼!!」{END}
+
+[S091D3A]
+JP: 「な・・・!?」{END}
+KO: 「뭐・・・!?」{END}
+
+[S091D43]
+JP: 「しまった! 脱出を!」{END}
+KO: 「아차! 탈출을!」{END}
+
+[S091D52]
+JP: 「しまった!!」{END}
+KO: 「아차!!」{END}
+
+[S091D5B]
+JP: 「ちいっ!」{END}
+KO: 「쳇!」{END}
+
+[S091D62]
+JP: 「くぅっ! やる!!」{END}
+KO: 「크읏! 제법이군!!」{END}
+
+[S091D6E]
+JP: 「きゃあっ!! やられちゃった!」{END}
+KO: 「꺄악!! 당해 버렸어!」{END}
+
+[S091D80]
+JP: 「や、やられたっ!」{END}
+KO: 「다, 당했다!」{END}
+
+[S091D8B]
+JP: 「うわあっ!! や、やられたあっ!」{END}
+KO: 「우와앗!! 다, 당했다!」{END}
+
+[S091D9E]
+JP: 「うわあああっ! だ、だから{n}イヤだったんだ!」{END}
+KO: 「우와아아앗! 그, 그러니까{n}싫다고 했잖아!」{END}
+
+[S091DB7]
+JP: 「ちくしょうっ! やられちまった!」{END}
+KO: 「젠장! 당해 버렸어!」{END}
+
+[S091DCA]
+JP: 「どわぁぁぁっ!!{n}やられちまったい!」{END}
+KO: 「우와아아앗!! 당해 버렸네!」{END}
+
+[S091DDF]
+JP: 「くそっ!! やられちまったい!」{END}
+KO: 「젠장!! 당해 버렸네!」{END}
+
+[S091DF1]
+JP: 「ぬ、ぬおおおおおっ!!」{END}
+KO: 「누, 누오오오오옷!!」{END}
+
+[S091DFF]
+JP: 「うおっ!! しまった!!」{END}
+KO: 「우옷!! 아차!!」{END}
+
+[S091E0E]
+JP: 「ちっ!」{END}
+KO: 「쳇!」{END}
+
+[S091E14]
+JP: 「うおおおおおっ!」{END}
+KO: 「우오오오오옷!」{END}
+
+[S091E1F]
+JP: 「こ、このあたしが直撃をうけている!?」{END}
+KO: 「이, 이 내가 직격을 받고{n}있다고!?」{END}
+
+[S091E36]
+JP: 「バ、バカなっ!?」{END}
+KO: 「마, 말도 안 돼!?」{END}
+
+[S091E41]
+JP: 「な、なんとおーっ!?」{END}
+KO: 「이, 이럴 수가~!?」{END}
+
+[S091E4E]
+JP: 「やーん!! やられちゃったあ!」{END}
+KO: 「아잉!! 당해 버렸어!」{END}
+
+[S091E60]
+JP: 「そ、そんなっ!?」{END}
+KO: 「그, 그런!?」{END}
+
+[S091E6B]
+JP: 「しもた! あかん!」{END}
+KO: 「아뿔싸! 글렀데이!」{END}
+
+[S091E77]
+JP: 「きゃああっ! お兄ちゃん!!」{END}
+KO: 「꺄아앗! 오빠!!」{END}
+
+[S091E89]
+JP: 「きゃああっ! 大介さん!!」{END}
+KO: 「꺄아앗! 다이스케 씨!!」{END}
+
+[S091E9B]
+JP: 「くっ! やられたっ!」{END}
+KO: 「큭! 당했다!」{END}
+
+[S091EA8]
+JP: 「な・・・バ、バカな・・・!?」{END}
+KO: 「뭐・・・마, 말도 안 돼・・・!?」{END}
+
+[S091EB9]
+JP: 「ガォォォォォン!!」{END}
+KO: 「가오오오오옹!!」{END}
+
+[S091EC5]
+JP: 「グォォォォッ!!」{END}
+KO: 「그오오오옷!!」{END}
+
+[S091ED0]
+JP: 「くっ! ちりぎわもまた、美しい・・・」{END}
+KO: 「큭! 지는 모습 또한{n}아름답도다・・・」{END}
+
+[S091EE6]
+JP: 「くそっ!! やりおったなっ!」{END}
+KO: 「젠장!! 제법이로구나!」{END}
+
+[S091EF7]
+JP: 「ああ・・・す、すごいわ・・・」{END}
+KO: 「아아・・・구, 굉장해・・・」{END}
+
+[S091F11]
+JP: {face:0A}真吾「くそっ!! やられたっ!」{END}
+KO: {face:0A}신고「젠장!! 당했다!」{END}
+
+[S091F26]
+JP: {face:0B}レミー「やあん! 真吾、しっかりしてよ{n}やられちゃったじゃない!」{END}
+KO: {face:0B}레미「아잉! 신고, 정신 차려 당해{n}버렸잖아!」{END}
+
+[S091F4C]
+JP: {face:0C}キリー「ちっ! やられちまったぜ!」{END}
+KO: {face:0C}키리「쳇! 당해 버렸네!」{END}
+
+[S091F61]
+JP: {face:0A}真吾「しまった!!」{END}
+KO: {face:0A}신고「아차!!」{END}
+
+[S091F70]
+JP: {face:0B}レミー「やん! ダメっ!!」{END}
+KO: {face:0B}레미「아잉! 안 돼!!」{END}
+
+[S091F81]
+JP: {face:0C}キリー「あーあ、ダメか」{END}
+KO: {face:0C}키리「아~아, 글렀군」{END}

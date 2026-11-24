@@ -1,0 +1,131 @@
+# 슈퍼로봇대전 EX 번역 스크립트  (sys0B)
+# - 'KO:' 줄에 번역을 씁니다. 비워 두면 원문이 그대로 들어갑니다.
+# - 태그는 지우거나 바꾸지 마세요(위치 이동은 가능):
+#     {n} 줄바꿈  {w} 키 입력 대기  {p} 창 지우기  {face:xx} 얼굴  {name:xx} 이름 삽입  {END} 끝
+#     {if:..} {goto:..} {rand:..} 은 분기(라벨 포함) — 반드시 유지
+# - 한글은 KS X 1001 완성형 2,350자만 쓸 수 있습니다(예: 똠, 뷁 불가).
+# - [라벨] 옆 '->' 는 이 조각이 {END} 없이 다음 조각으로 이어진다는 뜻입니다.
+
+[S01EE13]  N0B#01
+JP: 草原{END}
+KO: 초원{END}
+
+[S01EE18]  N0B#02
+JP: 砂地{END}
+KO: 모래땅{END}
+
+[S01EE1D]  N0B#03
+JP: 山{END}
+KO: 산{END}
+
+[S01EE20]  N0B#04
+JP: 森{END}
+KO: 숲{END}
+
+[S01EE23]  N0B#05
+JP: 林{END}
+KO: 숲{END}
+
+[S01EE26]  N0B#06
+JP: 街{END}
+KO: 거리{END}
+
+[S01EE29]  N0B#07
+JP: 海{END}
+KO: 바다{END}
+
+[S01EE2C]  N0B#08
+JP: 深海{END}
+KO: 심해{END}
+
+[S01EE31]  N0B#09
+JP: 海岸{END}
+KO: 해안{END}
+
+[S01EE36]  N0B#0A N0B#2F
+JP: 胞子の森{END}
+KO: 포자의 숲{END}
+
+[S01EE3E]  N0B#0B N0B#0C N0B#27 N0B#2A
+JP: がけ{END}
+KO: 절벽{END}
+
+[S01EE41]  N0B#0D N0B#14 N0B#2D N0B#2E
+JP: 荒地{END}
+KO: 황무지{END}
+
+[S01EE46]  N0B#0E
+JP: 地表{END}
+KO: 지표{END}
+
+[S01EE4B]  N0B#0F N0B#1D N0B#1E N0B#25
+JP: 壁{END}
+KO: 벽{END}
+
+[S01EE4E]  N0B#10
+JP: クレパス{END}
+KO: 크레바스{END}
+
+[S01EE53]  N0B#11 N0B#12
+JP: しょうにゅう石{END}
+KO: 종유석{END}
+
+[S01EE5C]  N0B#13
+JP: 湖{END}
+KO: 호수{END}
+
+[S01EE5F]  N0B#15 N0B#2C
+JP: 岩{END}
+KO: 바위{END}
+
+[S01EE62]  N0B#16 N0B#33
+JP: 木{END}
+KO: 나무{END}
+
+[S01EE65]  N0B#17
+JP: 川{END}
+KO: 강{END}
+
+[S01EE68]  N0B#18 N0B#1F N0B#20 N0B#21
+JP: 床{END}
+KO: 바닥{END}
+
+[S01EE6B]  N0B#19 N0B#30
+JP: 柱{END}
+KO: 기둥{END}
+
+[S01EE6E]  N0B#1A N0B#22
+JP: 階段{END}
+KO: 계단{END}
+
+[S01EE73]  N0B#1B
+JP: 塔{END}
+KO: 탑{END}
+
+[S01EE76]  N0B#1C
+JP: 空中{END}
+KO: 공중{END}
+
+[S01EE7B]  N0B#23
+JP: 入り口{END}
+KO: 입구{END}
+
+[S01EE81]  N0B#24
+JP: 参道{END}
+KO: 참배길{END}
+
+[S01EE86]  N0B#28
+JP: 岸{END}
+KO: 물가{END}
+
+[S01EE89]  N0B#29
+JP: わき水{END}
+KO: 샘물{END}
+
+[S01EE8E]  N0B#31
+JP: 神殿{END}
+KO: 신전{END}
+
+[S01EE93]  N0B#00 N0B#34 N0B#35 N0B#36
+JP: {END}
+KO: 
