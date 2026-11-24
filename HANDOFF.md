@@ -65,4 +65,5 @@ python srwtext.py build --no-tr    # 재배치만(회귀 검사)
   1. 화면 확인: 편 선택 화면, 인터미션(개조·교체·폐기), 능력 화면, 설정 모드, 정신 커맨드 설명, 스테이지 승리 조건, 사운드 테스트, 엔딩. 폭 경고(sys04~0E, lay00/01)가 실제로 넘치는지.
   2. 그래픽 글자: 스테이지 도입 제목(「第1話『ラングラン動乱』」은 그림 — 번역 없는 ROM에서도 한자가 그대로 보임), 타이틀 로고 「スーパーロボット大戦EX」. 3차 `ref3/build/titles.py`·`logo.py` 방식으로 분석 필요.
   3. 번역 품질 검수(사용자 플레이), 에이전트 보고의 판단 거리(말장난 현지화 등).
-  4. 배포: README(한·일, Claude 사용 고지), OFL(MonaS12), xdelta/IPS, git 저장소.
+  4. 배포: 정식 README(스크린샷·패치 방법), OFL(MonaS12), xdelta/IPS, 저장소 공개 전환·Release.
+- git: `main`, 원격 `game-patch-ko/srwex-ko` **비공개**(2026-11-24 생성). 작성자 rity73 noreply(저장소 로컬 설정), 커밋 끝 `Generated automatically using Claude (AI model).`
