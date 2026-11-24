@@ -41,7 +41,7 @@ DLG_COUNT = 33
 SYS_LIST = 0x18090           # $03:8090, 3 bytes per table t
 LAY_T = (0x00, 0x01, 0x02)   # window layout tables
 SYS_T = (0x04, 0x05, 0x06, 0x07, 0x08, 0x0B, 0x0C, 0x0D, 0x0E)   # name / text tables
-TEXT_BANKS = list(range(0xB3, 0xC0))   # free banks for relocated text
+TEXT_BANKS = list(range(0xB3, 0xBF))   # free banks for relocated text ($BF: title logo)
 DLG_MAX_PX = 240
 DLG_CONT_PX = 232
 NAME_PX = 48
@@ -679,7 +679,7 @@ def check_layout(s, toks, where, warnings):
 
 
 UNTRANSLATED_KANJI = []
-FORCE_TEXT = set()        # window strings called from code in text mode (found on screen)
+FORCE_TEXT = {0x02CF9B, 0x02DB87, 0x02DBA1, 0x02DDF1, 0x02DE02, 0x02EE48, 0x02EE7C}  # window strings shown in text mode but not reached by mode propagation (2026-11-24)
 LABEL_ADDR = {}
 
 
@@ -812,6 +812,12 @@ def build(out=OUT, use_tr=True):
                 rom[lst + 3 * i] = na & 0xFF
                 rom[lst + 3 * i + 1] = (na >> 8) & 0xFF
                 rom[lst + 3 * i + 2] = na >> 16
+    if use_tr:
+        import titles
+        tn, rn, gn = titles.apply(rom, orig)
+        print('stage titles: font %d bytes at $B0:8800, records %d bytes, %d glyphs' % (tn, rn, gn))
+        import logo
+        print('title logo: %d bytes at $BF:8000' % logo.apply(rom, orig))
     s = build_ko.fix_checksum(rom)
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'wb').write(rom)

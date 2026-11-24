@@ -61,9 +61,17 @@ python srwtext.py build --no-tr    # 재배치만(회귀 검사)
   - 데모 전투: 유닛·파일럿·무기 이름, 전투 대사, HP 창 정상.
   - 지도: 턴 메뉴, 턴 창, 지형 정보 창 정상. 프롤로그 첫 화면 정상.
   - 이름 표는 창 해석기 `$80:B981/C19D`와 대사 이름 삽입 `$81:8A34~8AC5`에서만 읽으며 모두 ROM에서 바로 그림 → 빌드의 "check RAM buffers" 경고는 이 경로에선 해당 없음.
-- 남은 일
-  1. 화면 확인: 편 선택 화면, 인터미션(개조·교체·폐기), 능력 화면, 설정 모드, 정신 커맨드 설명, 스테이지 승리 조건, 사운드 테스트, 엔딩. 폭 경고(sys04~0E, lay00/01)가 실제로 넘치는지.
-  2. 그래픽 글자: 스테이지 도입 제목(「第1話『ラングラン動乱』」은 그림 — 번역 없는 ROM에서도 한자가 그대로 보임), 타이틀 로고 「スーパーロボット大戦EX」. 3차 `ref3/build/titles.py`·`logo.py` 방식으로 분석 필요.
-  3. 번역 품질 검수(사용자 플레이), 에이전트 보고의 판단 거리(말장난 현지화 등).
-  4. 배포: 정식 README(스크린샷·패치 방법), OFL(MonaS12), xdelta/IPS, 저장소 공개 전환·Release.
+- **그래픽 글자(2026-11-24 후반 완료)**
+  - 스테이지 도입 제목: `build/titles.py`(빌드 자동 호출), 번역표 `tr/titles.tsv`(세트2 번호·블록·JP·KO). 제목 글꼴 = 그래픽 자료 4번(`$20:91A6`, LZ 32KB, 16×16 글자 4KB 블록 8개, 테두리 색8 + 위→아래 6..1 그러데이션). 시작 시 블록0→VRAM `$7800`, 블록1→`$6000`(공통 스크립트 `$80:DD36`), 스테이지 블록→`$6800`. 첫 줄 = 세트0 묶음 `0E`(第)·숫자·`11`(話), 둘째 줄 = **세트2 묶음 번호**(세트 목록 `$03:80C0`, 세트2 표 `$04:CEFE`, 116항목 중 제목 64개). 스테이지별 블록은 코드를 못 찾아 **블록 후보별 렌더링을 눈으로 읽어** 정함(`analysis/titlematch.py`, `img/tsheet_*.png`). 한글은 MonaS12로 획을 그리고 테두리·그러데이션, 글자 간격 14px. 압축 글꼴 `$B0:8800`, 묶음은 원래 제목 묶음 자리 + `$04:FF60` 빈 곳에 다시 씀. 1화 실제 화면 확인.
+  - 타이틀 로고: `build/logo.py`. 로고 = BG1(맵 `$7000`) 팔레트3, 그래픽 자료 47번(`$13:8000`, VRAM 0번지 32KB)의 타일 0x201~0x275, 칸 6줄×18열(행5~10, 열7~24). 「슈퍼로봇대전」을 나눔스퀘어EB로 그려 그 타일만 다시 칠함(파란 「EX」는 별도 층이라 그대로). 압축 자료는 **뱅크 `$BF` 전용**(텍스트 배치 뱅크는 `$B3~$BE`). 실제 화면 확인.
+- **추가 수정**: 창 문자열 7개를 `FORCE_TEXT`로 추출·번역(트레이닝 설명, 숨겨진 「슈우 편」, 데이터 오류 2, 작전 설명 2, 행동횟수). 한글 글꼴 빈 칸을 0으로 채움(원본의 빈칸 글자 `$F2FF` 등이 흰 네모로 보이던 문제).
+- **화면 확인 추가**: 편 선택, 유닛 명령 메뉴, 미니 상태창, 능력 화면(유닛·파일럿 쪽) 정상. 입력 스크립트 `tools/rt/menu_unit.py`. 인터미션은 1화 클리어 세이브가 없어 미확인.
+- **배포 파일(v0.9 베타)**: `dist/README.txt`, `dist/OFL.txt`(MonaS12·나눔스퀘어), `dist/srwex_ko.xdelta`·`.ips`(git 제외, Release 첨부용). 결과 ROM CRC32 `FEBC62A7`, SHA-1 `f660331b19b26d65d831ea907411c5efaa698634`. xdelta3·Flips로 원본 사본에 적용해 MD5 일치 확인. **빌드가 바뀌면 xdelta·IPS·CRC·SHA-1을 다시 만들 것**:
+  `cp out/srwex_ko.ips dist/` / `tools/patchers/xdelta/xdelta3-3.1.0-x86_64.exe -e -9 -f -s "Super Robot Taisen EX (J).smc" out/srwex_ko.smc dist/srwex_ko.xdelta`
+
+## 7. 다음 세션에서 할 일 (사용자 지시: 남은 것 처리 후 공개 전환)
+1. 정식 README.md·README.ja.md: 3차 저장소 README 형식(특징 표, 원문/한국어 비교 스크린샷 `docs/images/`, 패치 방법, 문제 제보, 동작 원리, 직접 빌드, 권리·Claude 사용 고지). 스크린샷 원본: `tools/shots/`(타이틀 `logo_ko/shot.png`·`logo/shot.png`, 편 선택 `menu4/00840.png`, 1화 제목 `title_ko/`, 대화·전투 `menu4/`·`idle/`, 능력 `unit2/10830.png`). 개발 중 문구 제거.
+2. 문제 제보 양식 `.github/ISSUE_TEMPLATE/report.yml`(3차 것 복사·수정).
+3. 커밋·push → `gh release create v0.9 dist/srwex_ko.xdelta dist/srwex_ko.ips dist/README.txt dist/OFL.txt`(베타라 pre-release 권장, 사용자와 확인) → **`gh repo edit game-patch-ko/srwex-ko --visibility public --accept-visibility-change-consequences`**(사용자가 2026-11-24 공개 전환을 지시함).
+4. 이후: 사용자·지인 플레이 피드백(인터미션·엔딩), 얼굴 전환 장면 S06D750 실제 확인.
 - git: `main`, 원격 `game-patch-ko/srwex-ko` **비공개**(2026-11-24 생성). 작성자 rity73 noreply(저장소 로컬 설정), 커밋 끝 `Generated automatically using Claude (AI model).`

@@ -151,6 +151,9 @@ def build(font):
         rom[o:o + 16] = bytes(rows.get(y, 0) for y in range(16))
 
     assert len(font) <= 0x10000
+    # unused slots must be blank, not $FF: untranslated 2-byte codes (e.g. the blank spacer $F2FF)
+    # land on them and would draw a solid white cell
+    font = font + bytes(0x10000 - len(font))
     fo = s2f(FONT_BANK << 16 | 0x8000)
     rom[fo:fo + len(font)] = font
     return rom, L
