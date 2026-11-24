@@ -73,6 +73,6 @@ python srwtext.py build --no-tr    # 재배치만(회귀 검사)
 1. (완료, 두 번째 세션) 정식 README.md·README.ja.md(3차 형식). 스크린샷 `docs/images/`는 현재 빌드로 다시 캡처: 원문 `tools/shots/jp1`·`idle_jp`·`map_jp`·`unit_jp`, 한국어 `ko2`·`idle_ko`·`map_ko`·`unit_ko`(같은 입력이라 같은 프레임 번호끼리 비교됨), 2배 확대(hero는 3배).
 2. (완료) 문제 제보 양식 `.github/ISSUE_TEMPLATE/`(3차 것을 복사해 장면 예시·버전만 고침).
 3. (2026-11-24 두 번째 세션) 기록 정리 완료: `git filter-branch`로 전체 기록에서 `analysis/img/`(g04.bin·판독용 그림)를 뺌, `.gitignore`에 `analysis/img/` 추가(파일은 로컬에만 보관). 정리 전 기록은 로컬 가지 `backup-before-clean`에 있음(원격 반영 확인 후 삭제).
-4. (두 번째 세션) Release `v0.9 베타`(pre-release) 생성 완료: xdelta·IPS·`srwex_ko_v0.9.zip`(둘 + README.txt + OFL.txt). **남은 일: 공개 전환** `gh repo edit game-patch-ko/srwex-ko --visibility public --accept-visibility-change-consequences` — 자동 승인 분류기가 거절해 사용자 승인 대기.
+4. (두 번째 세션) Release `v0.9 베타`(pre-release) 생성 완료: xdelta·IPS·`srwex_ko_v0.9.zip`(둘 + README.txt + OFL.txt). 2026-11-24 사용자 승인으로 **공개 전환 완료**.
 5. 이후: 사용자·지인 플레이 피드백(인터미션·엔딩), 얼굴 전환 장면 S06D750 실제 확인.
-- git: `main`, 원격 `game-patch-ko/srwex-ko` **비공개**(2026-11-24 생성). 작성자 rity73 noreply(저장소 로컬 설정), 커밋 끝 `Generated automatically using Claude (AI model).`
+- git: `main`, 원격 `game-patch-ko/srwex-ko` **공개**(2026-11-24 생성·공개). 작성자 rity73 noreply(저장소 로컬 설정), 커밋 끝 `Generated automatically using Claude (AI model).`
