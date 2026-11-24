@@ -1,0 +1,51 @@
+name: 번역·화면 문제 제보 / 翻訳・表示の不具合
+description: 오역, 어색한 문장, 글자 깨짐, 창 넘침, 멈춤 등을 알려 주세요. / 誤訳・文字化け・表示崩れ・フリーズなどの報告
+title: "[제보] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        제보해 주셔서 고맙습니다. **스크린샷**과 **장면 위치**가 있으면 가장 빨리 고칠 수 있습니다.
+        ご報告ありがとうございます。日本語で書いていただいても構いません。
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 종류 / 種類
+      options:
+        - 오역·어색한 문장 / 誤訳・不自然な文
+        - 글자 깨짐·잘못된 글자 / 文字化け
+        - 창 넘침·잘림 / ウィンドウからのはみ出し
+        - 멈춤·진행 불가 / フリーズ・進行不能
+        - 기타 / その他
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: 장면 위치 / 場面
+      description: "어느 편, 몇 화, 어떤 화면인지 / どの章の何話のどの画面か"
+      placeholder: "예: 마사키 편 제5화 시작 대화, 유닛 능력 화면, 전투 중 ○○의 대사"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 내용 / 内容
+      description: "화면의 문구를 그대로 적고, 무엇이 이상한지 알려 주세요. 고칠 문장을 제안해 주셔도 좋습니다. / 画面の文をそのまま書き、何がおかしいか教えてください。"
+    validations:
+      required: true
+  - type: textarea
+    id: shots
+    attributes:
+      label: 스크린샷 / スクリーンショット
+      description: "이미지를 끌어다 놓으세요. 상태 저장 파일(.mss 등)을 zip으로 첨부하면 같은 장면을 바로 다시 띄워 확인할 수 있습니다. / 画像をドラッグ＆ドロップしてください。"
+  - type: input
+    id: env
+    attributes:
+      label: 에뮬레이터와 패치 방법 / エミュレータとパッチ方法
+      placeholder: "예: Mesen2 2.1.1, xdelta로 패치 / snes9x 1.63, IPS 자동 적용"
+  - type: input
+    id: version
+    attributes:
+      label: 패치 버전 / パッチのバージョン
+      placeholder: "v0.9"

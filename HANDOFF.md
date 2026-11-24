@@ -70,8 +70,8 @@ python srwtext.py build --no-tr    # 재배치만(회귀 검사)
   `cp out/srwex_ko.ips dist/` / `tools/patchers/xdelta/xdelta3-3.1.0-x86_64.exe -e -9 -f -s "Super Robot Taisen EX (J).smc" out/srwex_ko.smc dist/srwex_ko.xdelta`
 
 ## 7. 다음 세션에서 할 일 (사용자 지시: 남은 것 처리 후 공개 전환)
-1. 정식 README.md·README.ja.md: 3차 저장소 README 형식(특징 표, 원문/한국어 비교 스크린샷 `docs/images/`, 패치 방법, 문제 제보, 동작 원리, 직접 빌드, 권리·Claude 사용 고지). 스크린샷 원본: `tools/shots/`(타이틀 `logo_ko/shot.png`·`logo/shot.png`, 편 선택 `menu4/00840.png`, 1화 제목 `title_ko/`, 대화·전투 `menu4/`·`idle/`, 능력 `unit2/10830.png`). 개발 중 문구 제거.
-2. 문제 제보 양식 `.github/ISSUE_TEMPLATE/report.yml`(3차 것 복사·수정).
+1. (완료, 두 번째 세션) 정식 README.md·README.ja.md(3차 형식). 스크린샷 `docs/images/`는 현재 빌드로 다시 캡처: 원문 `tools/shots/jp1`·`idle_jp`·`map_jp`·`unit_jp`, 한국어 `ko2`·`idle_ko`·`map_ko`·`unit_ko`(같은 입력이라 같은 프레임 번호끼리 비교됨), 2배 확대(hero는 3배).
+2. (완료) 문제 제보 양식 `.github/ISSUE_TEMPLATE/`(3차 것을 복사해 장면 예시·버전만 고침).
 3. (2026-11-24 두 번째 세션) 기록 정리 완료: `git filter-branch`로 전체 기록에서 `analysis/img/`(g04.bin·판독용 그림)를 뺌, `.gitignore`에 `analysis/img/` 추가(파일은 로컬에만 보관). 정리 전 기록은 로컬 가지 `backup-before-clean`에 있음(원격 반영 확인 후 삭제).
 4. 커밋·push → `gh release create v0.9 dist/srwex_ko.xdelta dist/srwex_ko.ips dist/README.txt dist/OFL.txt`(베타라 pre-release 권장, 사용자와 확인) → **`gh repo edit game-patch-ko/srwex-ko --visibility public --accept-visibility-change-consequences`**(사용자가 2026-11-24 공개 전환을 지시함).
 5. 이후: 사용자·지인 플레이 피드백(인터미션·엔딩), 얼굴 전환 장면 S06D750 실제 확인.
